@@ -1,0 +1,281 @@
+body{background:#fff;}
+/*.verticaltext{writing-mode: vertical-rl;
+text-orientation: mixed;}*/
+section{position:relative; z-index:1;}
+
+
+.work-page #Header span.bannerwave,.work-page #Header:after,.work-page #Header:before{display:none;}
+.parqbanner{height:100vh; width:100%; display:inline-block;}
+.work-page #Header.fivestarbg{background: linear-gradient(0deg, #FFFFFF 0%, #CDE0F7 100%);}
+.work-page #Header.fivestarbg:before{background:url(images/fivestar/banner_bg.png) repeat-x bottom left !important;  width:100%; height:100vh; position:absolute; content:''; top:0px; left:0; z-index:1; display:block; background-size:1920px !important;animation: rotate 250s linear infinite;-webkit-animation: rotate 250s linear infinite;-moz-animation: rotate 250s linear infinite;-ms-animation: rotate 250s linear infinite;-o-animation: rotate 250s linear infinite;-webkit-transition: -webkit-transform 250000ms linear;-webkit-transform-style: preserve-3d;-moz-transition: -moz-transform 250000ms linear;-moz-transform-style: preserve-3d;transition: transform 250000ms linear;transform-style: preserve-3d;}
+
+.fivestarbanner:after{background:url(images/fivestar/banner_triangle.png) no-repeat 0 0 !important;  width:942px; height:896px; position:absolute; content:''; top:0px; right:0; z-index:1; display:block;}
+.fivestarbanner:before{border-style: solid;
+border-width: 300px 0 300px 400px; 
+border-color: transparent transparent transparent #fff; position:absolute; content:''; bottom:0px; margin-bottom:-300px; left:0; z-index:1; display:block;}
+.apptitles{float:left; width:100%; text-align:left !important; margin-top:40px;}
+.apptitles h2{margin:0; padding:0; color: #4F1F1F !important; font-size:40px;}
+.apptitles h2 span{color:#4F1F1F; font-size:50px; font-weight:bold; letter-spacing:1.67px; line-height:62px; position:relative; width:102px; height:102px; background:#A2D5AA; display:inline-block; border-radius:15px; text-align:center; margin-right:30px;}
+.apptitles h2 span font{position:relative; z-index:1; display:block; padding-top:20px;}
+.apptitles h2 span:after{background:#fff; position:absolute; width:78px; height:78px; top:50%; margin-top:-39px; margin-left:-39px; left:50%; content:''; border-radius:50%; z-index:0;}
+
+.work-page #Header .header-content{top:0; transform:translateY(0%); z-index: 9; position: relative;}
+.bannertext{width:100%; height:100vh; display:table; vertical-align:middle;}
+.bannertextbox{display:table-cell; vertical-align:middle;}
+.bannertextbox div.cartimg{position:absolute; content:''; bottom:0%; right:-30%; z-index:1; display:block;}
+.bannerlogo{float:left; width:100%; text-align:left;}
+.portfoliotext{margin-top:20px;color:#4F1F1F; font-size:38px; letter-spacing:1.27px; line-height:49px; float:left; width:100%;}
+.bannerimg{margin-top:60px;}
+.bannerimg img{vertical-align:top;}
+
+
+#appfeatures{position:relative; overflow:visible; padding-top:250px;}
+#appfeatures .apptitles{margin-top:100px;}
+#appfeatures .apptitles:before{background:url(images/fivestar/banner_bablo.png) no-repeat 0 0 !important;  width:311px; height:248px; position:absolute; content:''; top:0px; margin-top:-220px; right:0; z-index:1; display:block;  animation-name:shake-slow; animation-duration:20s; animation-timing-function:ease-in-out; animation-iteration-count: infinite;}
+.featuretext{float:left; width:100%; margin-top:15px;}
+.apptitles{text-align:center;}
+.apptitles h2{color:#000; margin-bottom:20px;}
+.apptitles p{color:#98A0A3;}
+.featuretextimg{float:left; width:100%; margin-top:15px; padding-left:130px;}
+.featuretext1{float:left; width:100%; margin-top:25px; padding-left:180px;}
+
+
+.subscriptionsimg{float:left; width:100%; margin-top:0px; padding-left:0; padding-right:20px; text-align:right;}
+.subscriptions{width:100%; float:left; margin-top:120px;}
+.subscriptions h2{color: #A2D5AA; font-size:36px; letter-spacing:0.84px; line-height:44px; font-weight:bold;}
+.subscriptions h2 span{color:#4F1F1F; font-weight:normal;}
+
+.reviews{width:100%; float:left; margin-top:30px;}
+.reviews h2{color: #A2D5AA; font-size:36px; letter-spacing:0.84px; line-height:44px; font-weight:bold;}
+.reviews h2 span{color:#4F1F1F; font-weight:normal;}
+.reviewsimg{float:left; width:100%; margin-top:0px; padding-left:0; padding-right:20px; text-align:right; position:relative;}
+.reviewsnanny{background:url(images/fivestar/nanny.png) no-repeat 0 0 ; position:absolute; width:347px; height:354px; top:-171px;right:-100px; z-index:1; display:block;}
+
+
+#wireframes{background: linear-gradient(0deg, #FFFFFF 0%, #c8f0cc 100%);}
+#wireframes .container{position:relative; z-index:2;}
+#wireframes:after{background:url(images/fivestar/wireframe_overlay.png) no-repeat 0 0 !important; width:100%; height:691px; position:absolute; content:''; top:0px; right:0; z-index:0; display:block;}
+#wireframes:before{background:url(images/fivestar/wireframe_bg_toy.png) no-repeat 0 0 !important; width:174px; height:285px; position:absolute; content:''; top:60px; right:0; z-index:1; display:block;}
+
+.wireframeimg{margin-top:90px;}
+.wireframekid{position:absolute; top:0; left:340px; display:block;}
+
+
+#uxdesign{background: linear-gradient(0deg, #FFFFFF 0%, #E4EEFB 100%); margin-top:50px; overflow:visible;}
+#uxdesign .apptitles{margin-top:130px; position:absolute;}
+
+.uikid{position:absolute; top:-44px; left:340px; display:block;}
+
+#uxdesign .container{position:relative; z-index:2;}
+#uxdesign:after{background:url(images/fivestar/ui_design.png) no-repeat 0 0 !important; width:100%; height:691px; position:absolute; content:''; top:0px; right:0; z-index:0; display:block;}
+.uidesign{margin-bottom:80px;}
+.uidesign img{margin-top:100px;}
+
+.color1{position:absolute; top:0; left:0; display:block;}
+.color2{position:absolute; top:0; left:0; display:block; margin-top:90px; text-align:right; width:100%;}
+.color3{position:relative; top:0; left:0; display:block; margin-top:210px;}
+
+.color1 img,.color2 img,.color3 img{animation-name:spin; animation-duration:5000ms; animation-iteration-count:infinite; animation-timing-function:linear; }
+
+#uxdevelopment{background: linear-gradient(0deg, #FFFFFF 0%, #EFFBF2 100%); margin-top:50px; overflow:visible; margin-top:444px;}
+#uxdevelopment:after{background:url(images/fivestar/development_bg.png) no-repeat 0 0 !important; width:100%; height:444px; position:absolute; content:''; top:-440px; right:0; z-index:0; display:block;}
+#uxdevelopment .apptitles h2{text-align:right;}
+#uxdevelopment .apptitles h2 span{background:#9ABEE7;}
+
+.developmentcont{margin-bottom:50px;}
+.balloonimg1{width:300px; float:left; animation-name:shake-slow; animation-duration:70s; animation-timing-function:ease-in-out; animation-iteration-count: infinite;}
+.balloonimg2,.balloonimg4{width:55%; float:left; text-align:right; padding-right:20px; animation-name:shake-slow; animation-duration:90s; animation-timing-function:ease-in-out; animation-iteration-count: infinite;}
+.balloonimg3{width:300px; float:left; margin-left:150px; animation-name:shake-slow; animation-duration:80s; animation-timing-function:ease-in-out; animation-iteration-count: infinite;}
+.balloontext{width:45%; float:left; padding-top:70px;}
+.balloontext h3{color:#4F1F1F; font-size:36px; font-weight:bold; letter-spacing:1.2px; line-height:44px;}
+.balloontext p{color:#4F1F1F; font-size:24px; letter-spacing:0.8px; line-height: 39px;}
+
+#techstackb{background: linear-gradient(0deg, #FFFFFF 0%, #F1F9F2 100%); margin-top:50px; overflow:visible;}
+#techstackb .apptitles{margin-top:0px; margin-bottom:50px;}
+
+#techstackb .container{position:relative; z-index:2;}
+#techstackb:before{background:url(images/fivestar/testimonial_bg.png) no-repeat bottom left !important; background-size:100% auto !important; width:100%; height:563px; position:absolute; content:''; bottom:0px; margin-bottom:-1px; right:0; z-index:0; display:block;}
+
+#techstackb:after{background:url(images/fivestar/tech_bg.png) no-repeat 0 0 !important; background-size:100% auto !important; width:100%; height:330px; position:absolute; content:''; top:0px; margin-top:-1px; right:0; z-index:0; display:block;}
+.techbaby{width:100%; height:263px; float:left; background:url(images/fivestar/tech_baby.png) no-repeat center center; background-size:100%; text-align:center; margin-top:25px;}
+.techlogo{float:left; width:100%; margin-bottom:10px; margin-top:70px; min-height:80px;}
+.techname{float:left; width:100%; margin-bottom:50px; margin-top:10px;}
+.downloadbox{margin-top:100px;}
+.downloadnow{color:#4F1F1F; font-size:57px; font-weight:bold; letter-spacing: 2.04px; line-height: 57px; background:url(images/fivestar/arrow.png) no-repeat 0 0; padding-left:140px; margin-bottom:25px; width:100%; display:block; margin-top:100px;}
+.nowavailable{width:100%; display:block; color:#4F1F1F; font-size:24px; line-height:24px;}
+.nowavailable h3{color:#4F1F1F; font-size:34px; font-weight:bold; letter-spacing:1.21px; line-height:41px; margin-bottom:10px;}
+.nowavailable p{color:#4F1F1F; font-size:24px; line-height:24px; margin-bottom:15px;}
+.downloadbtn{width:100%; display:block; margin-top:30px;}
+.downloadbtn a{ padding:15px 15px 15px 70px; display:inline-block; border-radius:15px; color:#fff;}
+.appstore{background:url(images/fivestar/apple.png) no-repeat 25px center #A2D5AA; margin-right:20px;}
+.playstore{background:url(images/fivestar/android.png) no-repeat 25px center  #A2D5AA;}
+#testisection{background: linear-gradient(0deg, #FFFFFF 0%, #EFF5FD 100%); overflow:visible; padding-bottom:160px;}
+#testisection:after{background:url(images/fivestar/quote_right.png) no-repeat 0 0 !important; width:467px; height:371px; position:absolute; content:''; bottom:30px; right:0; z-index:0; display:block;}
+#testisection .apptitles{margin-top:100px; margin-bottom:30px;}
+.testitext{background:url(images/fivestar/testimonial_bubble.png) no-repeat 0 0; background-size:100%;}
+.testitext p{padding:120px 190px 50px 110px; color:#4F1F1F; font-size:27px; line-height:40px; text-align:center; line-height:36px; min-height:490px;}
+.clientinfo{margin-top:90px;}
+.clientimg img{max-width:100%;}
+.clientname{color:#4F1F1F; font-size:30px; font-weight:bold; line-height:37px;}
+.clientname span{display:block; color:#4F1F1F; font-size:26px; line-height:32px;}
+
+
+#footer:after{z-index:3; top:-92px;}
+@keyframes banneranim1 {
+  0%, 100% {
+    /*bottom: 0;*/
+	opacity:0.2;
+  }
+  50% {
+   /* bottom: 1px;*/
+   opacity:100;
+  }
+}
+@keyframes banneranim2 {
+  0%, 100% {
+    /*bottom: 0;*/
+	opacity:1;
+  }
+  50% {
+   /* bottom: 1px;*/
+   opacity:0.2
+  }
+}
+@keyframes shake-slow {
+2% {transform:translate(4px, 5px) rotate(3.5deg)}
+4% {transform:translate(-4px, 6px) rotate(2.5deg)}
+6% {transform:translate(-7px, 8px) rotate(-2.5deg)}
+8% {transform:translate(-2px, 10px) rotate(-1.5deg)}
+10% {transform:translate(9px, 8px) rotate(.5deg)}
+12% {transform:translate(-5px, 0px) rotate(.5deg)}
+14% {transform:translate(-1px, -3px) rotate(-2.5deg)}
+16% {transform:translate(5px, 5px) rotate(-2.5deg)}
+18% {transform:translate(1px, -3px) rotate(1.5deg)}
+20% {transform:translate(-7px, -4px) rotate(-.5deg)}
+22% {transform:translate(1px, 8px) rotate(-2.5deg)}
+24% {transform:translate(6px, 7px) rotate(.5deg)}
+26% {transform:translate(-1px, 6px) rotate(2.5deg)}
+28% {transform:translate(10px, 1px) rotate(-.5deg)}
+30% {transform:translate(-1px, 6px) rotate(-.5deg)}
+32% {transform:translate(-6px, -6px) rotate(-.5deg)}
+34% {transform:translate(6px, -4px) rotate(-2.5deg)}
+36% {transform:translate(3px, -8px) rotate(-2.5deg)}
+38% {transform:translate(8px, 5px) rotate(3.5deg)}
+40% {transform:translate(-6px, -6px) rotate(1.5deg)}
+42% {transform:translate(2px, -4px) rotate(1.5deg)}
+44% {transform:translate(2px, 5px) rotate(2.5deg)}
+46% {transform:translate(-6px, -6px) rotate(1.5deg)}
+48% {transform:translate(0px, -5px) rotate(-1.5deg)}
+50% {transform:translate(-5px, -3px) rotate(1.5deg)}
+52% {transform:translate(9px, 8px) rotate(1.5deg)}
+54% {transform:translate(-2px, -1px) rotate(-2.5deg)}
+56% {transform:translate(-5px, -1px) rotate(-2.5deg)}
+58% {transform:translate(5px, -4px) rotate(1.5deg)}
+60% {transform:translate(5px, -1px) rotate(3.5deg)}
+62% {transform:translate(-1px, 2px) rotate(-1.5deg)}
+64% {transform:translate(10px, -1px) rotate(2.5deg)}
+66% {transform:translate(-6px, 10px) rotate(-2.5deg)}
+68% {transform:translate(-5px, 4px) rotate(.5deg)}
+70% {transform:translate(8px, 10px) rotate(2.5deg)}
+72% {transform:translate(-2px, 7px) rotate(3.5deg)}
+74% {transform:translate(2px, 0px) rotate(-1.5deg)}
+76% {transform:translate(5px, -5px) rotate(-.5deg)}
+78% {transform:translate(7px, 3px) rotate(2.5deg)}
+80% {transform:translate(3px, 10px) rotate(-.5deg)}
+82% {transform:translate(3px, 7px) rotate(.5deg)}
+84% {transform:translate(-9px, -6px) rotate(1.5deg)}
+86% {transform:translate(-3px, -8px) rotate(-1.5deg)}
+88% {transform:translate(2px, -5px) rotate(3.5deg)}
+90% {transform:translate(6px, -6px) rotate(1.5deg)}
+92% {transform:translate(-7px, 3px) rotate(1.5deg)}
+94% {transform:translate(-8px, -5px) rotate(-1.5deg)}
+96% {transform:translate(6px, -3px) rotate(.5deg)}
+98% {transform:translate(1px, -5px) rotate(-1.5deg)}
+0%, 100% {transform:translate(0, 0) rotate(0)}
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+
+@media (max-width:1660px) {
+#wireframes:before{top:170px;}
+/*.reviewsnanny{top:-213px}*/
+.uikid{top:-93px;}
+.balloontext p{font-size:22px; line-height:34px;}
+.nowavailable p{font-size:22px;}
+.testitext p{font-size:24px;}
+}
+@media (max-width:1440px) {
+	.reviewsnanny{right:-30px;}
+	
+}
+@media (max-width:1280px) {
+	#appfeatures .apptitles:before{width:250px; height:200px; background-size:100% !important; margin-top:-150px;}
+	.featuretextimg{padding-left:30px;}
+	.featuretext1{padding-left:100px;}
+	.reviewsnanny{width:270px; height:280px; background-size:100% !important; top:-140px; right:0;}
+	.wireframekid{width:200px; left:360px;}
+	.uikid{width:400px;}
+	#uxdevelopment{margin-top:290px;}
+	#uxdevelopment:after{top:-290px; background-size:100% !important;}
+	.testitext{background-size:100% 100%;}
+	.clientname{font-size:25px;}
+	.clientname span{font-size:20px;}
+	
+}
+@media (max-width:1024px) {
+.bannertextbox div.cartimg{width:250px;}
+.bannerimg img{max-width:90%;}
+.reviewsnanny{width:220px; height:225px; top:-105px;}
+.uikid{width:330px; top:-85px;}
+#uxdevelopment:after{height:233px; top:-230px;}
+#testisection:after{width:300px; height:250px; background-size:100% !important;}
+.testitext p,.nowavailable p,.balloontext p{font-size:20px; line-height:30px;}
+.portfoliotext{font-size:30px; line-height:40px;}
+.fivestarbanner:after{width:680px; background-size:100% !important; height:640px;}
+.fivestarbanner:before{border-width:200px 0 200px 250px;margin-bottom:90px; display:none;}
+.color1,.color2,.color3{width:55%;}
+.color2{left:auto; right:0;}
+}
+@media (max-width:767px) {
+	body,.testitext p, .nowavailable p, .balloontext p{font-size:16px; line-height:26px;}
+	.bannertext{height:auto; margin-top:90px;}
+	.bannerlogo,.portfoliotext,#wireframes{text-align:center;}
+	.bannertextbox div.cartimg,#appfeatures .apptitles:before{display:none;}
+	#appfeatures{padding-top:0;}
+	#appfeatures .apptitles{margin-top:0;}
+	.fivestarbanner:after{width:400px; height:440px;}
+	.bannerimg{margin-top:0;}
+	.bannerimg img{margin-top:20px; width:100%;}
+	.apptitles h2 span{display:block; margin-bottom:15px;}
+	.featuretextimg,.featuretext1{padding-left:0;}
+	.subscriptionsimg{text-align:center;}
+	.subscriptions{margin-top:20px;}
+	.reviewsnanny,.wireframekid,#wireframes:before,.uikid,.balloonimg1,.balloonimg2,.balloonimg3,.balloonimg4,#testisection:after{display:none;}
+	#uxdevelopment .apptitles h2{text-align:left;}
+	#uxdesign .apptitles{position:relative;}
+	.uidesign img{margin-top:20px;}
+	.uidesign{margin-bottom:20px;}
+	.color1, .color2, .color3{width:100%;position:relative; text-align:center; margin-top:0;}
+	#uxdevelopment:after{display:none;}
+	#uxdevelopment{margin-top:40px;}
+	.balloontext{width:100%; padding-top:10px;}
+	.developmentcont{margin-bottom:10px;}
+	.balloontext h3{font-size:28px;}
+	.apptitles h2{font-size:32px;}
+	.apptitles h2 span{display:none;}
+	.techbaby{background-size:auto;}
+	.downloadnow{background:none; padding-left:0; font-size:32px; margin-top:10px; margin-bottom:15px;}
+	.downloadnow br{display:none;}
+	.nowavailable h3{font-size:26px;}
+	.testitext{background:none;}
+	.testitext p{padding:0; text-align:left;}
+	#testisection .apptitles{margin-top:50px; margin-bottom:0;}
+	
+}

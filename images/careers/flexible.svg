@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>B9CF660B-4D47-453D-AFCC-D0154624269C</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50.0007883%" x2="99.9987174%" y2="50.0007883%" id="linearGradient-1">
+            <stop stop-color="#E29A64" offset="0%"></stop>
+            <stop stop-color="#E85E8C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50.0007883%" x2="99.9987174%" y2="50.0007883%" id="linearGradient-2">
+            <stop stop-color="#E29A64" offset="0%"></stop>
+            <stop stop-color="#E85E8C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Careers" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Career" transform="translate(-211.000000, -1173.000000)">
+            <g id="Group-9" transform="translate(211.000000, 1032.000000)">
+                <g id="Group-4" transform="translate(0.000000, 141.000000)">
+                    <g id="f">
+                        <circle id="Oval" stroke="url(#linearGradient-1)" stroke-width="3" cx="40" cy="40" r="22"></circle>
+                        <path d="M46.2432432,7 L46.2434031,13.0591905 C49.2586154,13.7551411 52.0851668,14.9442481 54.6335418,16.5369956 L58.9198841,12.2508366 L67.7491634,21.0801159 L63.4630044,25.3664582 C65.0557519,27.9148332 66.2448589,30.7413846 66.9408095,33.7565969 L73,33.7567568 L73,46.2432432 L66.9408095,46.2434031 C66.2448589,49.2586154 65.0557519,52.0851668 63.4630044,54.6335418 L67.7491634,58.9198841 L58.9198841,67.7491634 L54.6335418,63.4630044 C52.0851668,65.0557519 49.2586154,66.2448589 46.2434031,66.9408095 L46.2432432,73 L33.7567568,73 L33.7565969,66.9408095 C30.7413846,66.2448589 27.9148332,65.0557519 25.3664582,63.4630044 L21.0801159,67.7491634 L12.2508366,58.9198841 L16.5369956,54.6335418 C14.9442481,52.0851668 13.7551411,49.2586154 13.0591905,46.2434031 L7,46.2432432 L7,33.7567568 L13.0591905,33.7565969 C13.7551411,30.7413846 14.9442481,27.9148332 16.5369956,25.3664582 L12.2508366,21.0801159 L21.0801159,12.2508366 L25.3664582,16.5369956 C27.9148332,14.9442481 30.7413846,13.7551411 33.7565969,13.0591905 L33.7567568,7 L46.2432432,7 Z" id="Combined-Shape" stroke="url(#linearGradient-1)" stroke-width="2.67567568"></path>
+                        <polyline id="Path-2" stroke="url(#linearGradient-2)" stroke-width="3" points="40 24.1582031 40 40 49.8154297 40"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,240 @@
+body{background:#fff;}
+/*.verticaltext{writing-mode: vertical-rl;
+text-orientation: mixed;}*/
+section{position:relative; z-index:1; width:100%; display:block;}
+.container{position:relative; z-index:5;}
+
+.work-page #Header span.bannerwave,.work-page #Header:after,.work-page #Header:before{display:none;}
+
+.work-page #Header.linemogulbg{}
+.work-page #Header.linemogulbg:before{}
+
+body.sticky-header #Header{z-index: 9999;}
+
+body{background:#fff; color:#fff;}
+.bannerimg img{right:-50px;}
+.work-page #Header.switchmbg{background:url(images/switch/banner_bg.png) no-repeat center top; height:850px; min-height: 80vh; padding-bottom:60px;}
+
+.portfoliologo{text-align:center;}
+.portfoliotext{text-align:center; font-size:34px; font-weight:500;}
+.fullwidthdiv{width:100%; float:left;}
+/******* Feature ************/
+#appfeaturediv{ /*margin-top:-100px;*/ margin-top:50px; width:100%; float:left;background:url(images/switch/featurebg.png) no-repeat center 100px; z-index: 1000;}
+#appfeaturediv .fullwidthdiv.backgroundlogoimg{position:relative;}
+#appfeaturediv .fullwidthdiv.backgroundlogoimg:after{background:url(images/switch/app-feature-bg-logo.png) no-repeat 0 0; position:absolute; bottom:150px; right:0; content:''; width:145px; height:364px; content:'';}
+#appfeaturediv .container.featurebg{border-radius:25px; background-color:#07b4b5; padding:50px;}
+.titlefeatures{width:100%; float:left; position:relative; font-size:64px; font-weight: bold; color: #186e6f; margin-top:50px; margin-bottom:50px;}
+.titlefeatures span{position:relative; z-index:2; padding-left:75px;}
+.titlefeatures:before{position:absolute; top:-40px; left:0; content:'01'; color:#fff; font-size:192px; font-weight:600; line-height:150px; z-index:1; text-transform:uppercase;}
+.subscriptionicon{float:left; width:100%; margin-top:40px; margin-bottom:20px;}
+.subscriptiontitle{font-size: 25px; font-weight: 600; color:#fff; float:left; width:100%; margin-bottom:20px;}
+.subscriptiontext{font-size: 20px; font-weight: normal; color:#fff; float:left; width:100%;}
+.featureicon{float:left; width:100%; color:#000; padding-top:60px;}
+.featuretitle{float:left; width:100%; font-size: 25px; padding-top:15px; font-weight: 600; color: #707070;}
+.featuretext{float:left; width:100%; font-size: 20px; padding-top:15px; padding-right:50px; color: #707070;}
+.diviceimg{position:relative; margin-top:-140px; padding-bottom:70px;}
+
+.titledesign{position:relative; font-size:64px; font-weight: bold; color: #186e6f; margin-top:50px; margin-bottom:50px;}
+.titledesign span{position:relative; z-index:2; padding-left:65px; display:block;}
+.titledesign:before{position:absolute; top:-40px; left:0; content:'02'; color:#e9e9e9; font-size:192px; font-weight:600; line-height:150px; z-index:1; text-transform:uppercase;}
+
+
+.designtext{font-size:25px; color:#707070;}
+.designdevice{width:100%; height:1167px; float:left; background:url(images/switch/design-device.png) no-repeat center center; position:relative;}
+.splashanimation{width:294px; height:591px;position:absolute; top:73px; left:50%; margin-left:44px; background:url(images/switch/splash-screen.gif) no-repeat center center; background-size:98%; border-radius:44px; -webkit-transform: rotateZ(44deg); transform: rotateZ(44deg);}
+
+
+#developmentprocess{background:url(images/switch/development-bg.png) no-repeat center center; padding-top:80px; padding-bottom:592px; position:relative; float:left;}
+#developmentprocess:before{background:url(images/switch/process-bgleft.png) no-repeat 0 0; width:361px; height:1267px; position:absolute; z-index:1; content:''; top:0; left:0;}
+#developmentprocess:after{background:url(images/switch/process-bgright.png) no-repeat 0 0; width:404px; height:1457px; position:absolute; z-index:1; content:''; top:0; right:0;}
+#developmentprocess .btmwave{background:url(images/switch/waves.png) no-repeat 0 0; width:100%; height:592px; position:absolute; z-index:2; content:''; bottom:0; right:0;}
+#developmentprocess h2{text-align:center; position:relative; margin-bottom:90px; margin-top:90px;}
+#developmentprocess h2 span{position:relative; z-index:1;color: #186e6f;font-size: 64px;}
+#developmentprocess h2 span:after{position:absolute; z-index:1; content:'03'; top:-80px; left:-90px; font-size:192px; font-weight:600;color: #e9e9e9;}
+#developmentprocess h2 span font{position:relative; z-index:3; text-transform:uppercase;}
+.developmentcont{width:100%; float:left; margin-bottom:20px;}
+.rightimgtext{direction:rtl; color:#707070; text-align:right; width:58%; margin-right:42%;}
+.leftimgtext{direction:ltr; color:#707070; text-align:left; width:58%; margin-left:42%;}
+.processnum{display:inline-block; background:url(images/switch/process-1.png) no-repeat 0 0; width:340px; height:281px; float:left; padding-left:113px; padding-top:84px; position:relative;}
+.processnum span{position:absolute; color:#07b4b5; font-size:50px; border-bottom:1px #07b4b5 solid; font-weight:400; padding-left:10px; top:50%; margin-top:-77px; right:0; margin-right:-7px;}
+.processnum span:before{position:absolute; bottom:0; margin-bottom:-3px; right:0; width:5px; height:5px; background:#07b4b5; border-radius:50%; content:'';}
+
+.rightimgtext .processnum{float:right; background:url(images/switch/process-2.png) no-repeat top right; padding-left:0; padding-right:113px;}
+.rightimgtext .processnum span:before{left:0; right:auto;}
+.rightimgtext .processnum span{padding-right:10px; top:50%; margin-top:-79px; right:auto; left:0; margin-right:0; margin-left:-14px;}
+
+.processcont{display:inline;}
+.processtitel{display:block; width:100%; padding-top:60px; padding-left:390px; color: #07b4b5; font-size:23px; font-weight:600;}
+.processtext{display:block; width:100%; padding-left:390px; color: #707070; font-size:18px; padding-top:20px; padding-right:80px;}
+.rightimgtext .processtitel{padding-right:390px; padding-left:0; direction:ltr;}
+.rightimgtext .processtext{padding-right:390px; padding-left:80px; direction:ltr;}
+
+#challengescontent{padding-top:15px; background-image: linear-gradient(to bottom, #f9fefe, #fff); padding-bottom:30px; float: left;}
+#challengescontent:before{position:absolute; top:0; right:0; width:182px; height:350px; content:''; z-index:1; background:url(images/switch/challenges-circle.png) no-repeat 0 0;}
+#challengescontent .container{z-index:2;}
+#challengescontent .titledesign:before{content:'04';}
+
+.challengtitle{font-size:25px; color:#07b4b5; font-weight:600; margin-bottom:20px; margin-top:50px; width:100%; display:block;}
+.challengtext{font-size:20px; color:#707070; line-height:34px; width:100%; display:block;}
+.challengrightimg{text-align:right; padding-bottom:25px;}
+.challengleftimg{text-align:left; padding-bottom:25px;}
+/*.challengebox{width:66%; margin-left:17%; margin-right:17%; position:relative;}
+
+.challengebox1{background: #07b4b5; width:70%; margin-bottom:40px; border-radius:25px; border-bottom-left-radius:0; padding:30px 30px 150px 150px; position:relative;}
+.challengebox2{background: #448bbd; width:50%; border-radius:25px; padding:80px 30px 30px 30px; position:absolute; top:0; margin-top:350px; right:0;}
+.challengebox1:before {display:inline-block; width:0; height:0; border-style:solid; border-width:80px 80px 0 0; border-color:#07b4b5 transparent transparent transparent; position:absolute; content:''; bottom:-80px; left:0;}
+.challengebox1 .challengimg{position:absolute; top:55px; left:-95px;}
+.challengebox2 .challengimg{position:absolute; top:-145px; right:25px;}
+.challengebox2:before {display:inline-block; width:0; height:0; border-style:solid; border-width:80px 60px 0 60px; border-color:#448bbd transparent transparent transparent; position:absolute; content:''; bottom:-60px; left:50%; margin-left:-70px;}
+.challengeboxicon{width:100%; display:block; margin-bottom:80px;}*/
+
+
+#techstack{background:url(images/switch/download-text.png) no-repeat bottom center #07b4b5; background-size:contain; padding:80px 0 640px 0; float: left;}
+#techstack .titledesign{margin-bottom:110px;}
+#techstack .titledesign:before{content:'05'; color:#fff;}
+
+.techicon{display:inline-block; width:33%; position:relative;}
+.techicon span{position:absolute; top:50%; margin-top:-96px; left:50%; margin-left:-76px;}
+.techicon.php{top:-80px;}
+.techicon.mysql{top:-180px;}
+.techicon.aws{text-align:center;}
+.techicon.laravel{text-align:center;}
+
+
+
+#download{background:url(images/switch/testimonial-bg.png) no-repeat top left; overflow:visible; float: left;}
+#download p{color: #646464;}
+#download h3{font-weight:600; color:#07b4b5; font-size: 24px;}
+#download h4{font-weight:300; color:#c2c2c2; font-size:20px;}
+.downloaddevice{position:relative; margin-bottom:50px;}
+.downloaddevice img{margin-top:-300px;}
+.downloadtitle{font-size:37px; font-weight:700; color: #707070; width:100%; display:block; margin-top:50px;}
+.downloadtext{font-size:26px; color:#707070; width:100%; display:block; margin-top:20px;}
+.downloadlink{width:100%; display:block; font-size:26px; font-weight:500; margin-top:50px;}
+.downloadlink a{border-radius:13px; background-image:linear-gradient(286deg, #448bbd, #c336ce); text-align:center; padding:15px 25px 15px 20px; color:#fff; width:40%; margin:0 4.5%; display:inline-block;}
+.downloadlink a span{padding-left:45px;}
+.appstore{background:url(images/switch/apple.png) no-repeat 0 0; display:block;}
+.playstore{background:url(images/switch/playstore.png) no-repeat 0 0; display:block;}
+
+#download .titledesign{text-align:right; width:100%}
+#download .titledesign:before{display:none;}
+#download .titledesign span{display:inline-block;}
+#download .titledesign span:before{position:absolute; top:-40px; left:0; content:'06'; color:#e9e9e9; font-size:192px; font-weight:600; line-height:150px; z-index:-1; text-transform:uppercase;}
+
+.clientimg{text-align:center; margin-top:40px; display:block; width:100%;}
+.clienttext{text-align:center; margin-top:40px; margin-bottom:200px; display:block; width:100%; padding:0 15%; position:relative;}
+.clienttext:before{position:absolute; top:-80px; left:0; content:''; background:url(images/switch/quote-1.png) no-repeat 0 0; width:108px; height:71px;}
+.clienttext:after{position:absolute; bottom:-60px; right:0; content:'';  background:url(images/switch/quote-2.png) no-repeat 0 0; width:108px; height:71px;}
+
+.clienttext h4{font-size:26px; font-weight:600; color: #707070; letter-spacing: 0;}
+#footer{z-index:5;}
+@media (min-width:1660px) {
+	.container {
+    	max-width: 1440px;
+	}
+}
+@media (max-width:1660px) {
+	
+}
+@media (max-width:1440px) {
+	.rightimgtext .processtext{padding-left:0;}
+	.processtext{padding-right:0;}
+	/*.challengebox{width:86%; margin-left:7%; margin-right:7%;}*/
+	.portfoliotext{font-size:25px;}
+	.titlefeatures{font-size:54px;}
+	.titlefeatures span{padding-left:55px;}
+	.titlefeatures:before{font-size:140px;}
+	.titledesign,#developmentprocess h2 span{font-size:50px;}
+	.titledesign:before,#developmentprocess h2 span:after,#download .titledesign span:before{font-size:140px;}
+	#developmentprocess h2 span:after{top:-55px;}
+	.titledesign span{padding-left:38px;}
+	.downloadtitle{font-size:34px;}
+	.downloadtext{font-size:24px;}
+	.downloadlink{font-size:19px;}
+	.downloadlink a{margin:0 15px 0 0;}
+	.downloadlink a span{padding-bottom:5px; padding-top:5px;}
+	#appfeaturediv .container.featurebg{padding-bottom:130px;}
+	#developmentprocess{padding-bottom:425px;}
+	#developmentprocess .btmwave{background-size:contain; background-position:bottom center; height:435px;}
+	#techstack{padding-bottom:460px;}
+
+}
+@media (max-width:1024px) {
+	.portfoliotext{font-size:20px;}
+	#appfeaturediv .container.featurebg{padding:20px 20px 160px; width:96%; margin-left:2%; margin-right:2%;}
+	.designtext{font-size:20px;}
+	.leftimgtext{width:70%; margin-left:30%;}
+	.rightimgtext{width:70%; margin-right:30%;}
+	/*.challengebox1{margin-left:100px;}
+	.challengebox1 .challengtext{padding-right:55px;}*/
+	.techicon.mysql{top:60px;}
+	.techicon.laravel{top:40px;}
+	.downloadlink a{padding:12px;}
+	.downloadlink a span{padding-left:35px;}
+	#download .titledesign{padding-right:15px;}
+	.featureimg{margin-top:110px;}
+	
+}
+@media (max-width:991px) {
+	.work-page #Header.switchmbg{height:auto;}
+	#Header .container.header-content {transform: translateY(0%); padding-top:80px;}
+	.portfoliologo{margin-top:0;}
+	#appfeaturediv{margin-top:20px;}
+	.featureimg{margin-top:200px;}
+	.designtext{padding-left:80px;}
+	.leftimgtext{width:90%; margin-left:10%;}
+	.rightimgtext{width:90%; margin-right:10%;}
+	#developmentprocess{padding-bottom:250px;}
+	#developmentprocess .btmwave{background-size:100% 100%; height:230px;}
+	.downloaddevice img{margin-top:-140px;}
+	.techicon{width:45%;}
+	.downloadlink a{width:43%;}
+	
+}
+@media (max-width:767px) {
+	.header-content{top:auto !important}
+	.featureimg{margin-top:20px;}
+	.diviceimg{text-align:center; padding-bottom:0;}
+	.designtext{padding-left:15px;}
+	.leftimgtext,.rightimgtext{width:100%; margin:0;}
+	.processcont{display:block; width:100%; float:left;}
+	.processtitel,.processtext{padding-top:15px; padding-left:15px;}
+	.rightimgtext .processtitel,.rightimgtext .processtext{padding-right:15px;}
+	/*.challengebox{width:100%; padding:0 15px; margin:50px 0 0 0;}
+	.challengebox1,.challengebox2{width:100%; margin-left:0; border-radius:20px; padding:20px;}
+	.challengebox1:before,.challengebox2:before{display:none;}
+	.challengebox1 .challengimg{top:-55px; left:25px;}
+	.challengebox2 .challengimg{top:-55px;}
+	.challengebox2{position:relative; margin-top:90px; width:100%;}
+	.challengtitle{margin-top:150px;}
+	.challengeboxicon{width:100%; text-align:center; margin-top:20px;}*/
+	.titlefeatures{font-size:44px;}
+	.titlefeatures span{padding-left:38px;}
+	.subscriptionicon{margin-top:10px;}
+	.downloadlink a{width:auto;}
+	
+	.splashanimation{-webkit-transform: rotateZ(0deg); transform: rotateZ(0deg); margin-left:-147px; top:50%; margin-top:-298px;}
+	.developmentcont{padding:0 25px;}
+	/*.challengebox2 .challengimg{right:auto; left:25px;}*/
+	
+	#developmentprocess h2{text-align:left; padding-left:25px;}
+	#developmentprocess h2 span:after{left:-38px;}
+	.titledesign, #developmentprocess h2 span{font-size:40px;}
+	.titledesign:before, #developmentprocess h2 span:after, #download .titledesign span:before,.titlefeatures:before{font-size:100px; line-height:100px; top:-25px;}
+	
+	.downloadtitle{font-size:26px;}
+	.downloadtext,p, #ourServices .services-content p,.subscriptiontext,.featuretext,.designtext,.challengtext{font-size:18px; line-height:28px;}
+	#download .titledesign{text-align:left; margin-bottom: 0;}
+	
+.clientimg{margin-top:0;}
+.clienttext{padding:0 20px; margin-bottom:100px;}
+.clienttext:before,.clienttext:after{display:none;}
+}
+@media (max-width:639px) {
+	.techicon{width:100%; top:0 !important; margin-bottom:25px;}
+	#techstack{padding-top:0; padding-bottom:150px;}
+	#techstack .titledesign{margin-bottom:40px;}
+	.downloaddevice{margin-bottom:0;}
+	.downloaddevice img{margin-top:-60px;}
+	#download .titledesign span{text-align:left;}
+}

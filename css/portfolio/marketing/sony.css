@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+body,p{color: #424b6c; font-family:'OpenSans';}
+h1{font-family: 'OpenSans';}
+h2{text-align:center; font-size:34px; font-weight:bold; color: #424b6c; font-family: 'OpenSans'; position: relative; margin-bottom:60px;}
+h2 span{display: inline-block; width: 20px; height: 20px; background:#ff881e; border-radius: 20px; margin:0 30px; position: relative;}
+h2 span.leftline:before{position: absolute; top:50%; margin-left:-110px; margin-top: 0px; left:0; background:#424b6c; width: 100px; height: 2px; content: '';}
+h2 span.rightline:after{position: absolute; top:50%; margin-right:-110px; margin-top: 0px; right:0; background:#424b6c; width: 100px; height: 2px; content: '';}
+h3{font-size: 27px; font-weight: bold; color: #424b6c; text-align: center; text-transform: uppercase; margin-bottom: 40px;}
+.container{z-index:1; position: relative;}
+
+.casestudy #Header{height:auto; min-height:100vh;}
+.casestudy #Header:after,.casestudy #Header span.bannerwave{display:none;}
+
+.work-page #Header{background:url(../images/marketing/sony/header-bg.png) no-repeat top center; height:900px; position: relative;}
+.work-page #Header:before{position: absolute; bottom:200px; left: 50%; margin-left: -14px; content: ''; height: 40px; width: 28px; content: ''; background: url(../images/marketing/sony/mouse-icon.png) no-repeat center center !important; z-index: 2; -webkit-animation:none;}
+
+.portfoliotext{color: #fff;font-size: 20px; letter-spacing: 0.6px; text-align: left; margin-top: 30px;}
+.downloadlinks{text-align:left; margin-top: 50px;}
+.downloadlinks a{display:inline-block; margin-right: 20px; margin-top: 20px;}
+.downloadlinks img{width:100%; max-width:100%;}
+.bannerimg{position: relative;}
+.bannerimg img{position:absolute; top:0; right: 0;}
+.portfoliologo{text-align:left; margin-top:110px;}
+.portfoliologo h3{text-align:left; font-size: 74px; color: #FFFFFF;}
+.portfoliologo h3 span{color:#F4CD34;}
+
+#aboutapp{position:relative; padding-top:50px; margin-bottom: 80px;}
+.shortinfo{color: #424b6c;}
+
+.shortinfo p{font-size: 28px;line-height:50px; margin-top: 50px; padding-left: 40px; padding-right: 40px; position: relative;}
+.shortinfo p:before{position: absolute; content: ''; top:0px; left:0; width:24px; height: 24px; background:url(../images/marketing/sony/left-quote.png) no-repeat top center; }
+.shortinfo p:after{position: absolute; content: ''; bottom:0px; right:0; width:24px; height: 24px; background:url(../images/marketing/sony/right-quote.png) no-repeat top center; }
+.longinfo{font-size: 20px; color: #424b6c;}
+.longinfo h1{font-size: 27px; color: #424b6c; font-weight: bold; text-transform: uppercase; margin-bottom: 20px; text-align: left;}
+.longinfo p{font-size: 20px; line-height: 36px;}
+
+
+.datatabel table{text-align:center; margin-bottom:40px; margin-top: 30px;}
+.datatabel table tr th{font-size: 24px; font-weight: bold; color: #424b6c; background: #fff; padding:0 5px;}
+.datatabel table tr th.before span,.datatabel table tr th.after span{-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.40); -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.40); box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.40); display: block; padding: 10px;}
+.datatabel table tr th.before span{border-top-left-radius: 4px;}
+.datatabel table tr th.after{padding-right: 0;}
+.datatabel table tr th.after span{color: #ff881e;border-top-right-radius: 4px;}
+.datatabel table tbody{-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.40); -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.40); box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.40);}
+.datatabel table tbody tr:nth-child(even) {background: #fff}
+.datatabel table tbody tr:nth-child(odd) {background: #f6f9fc}
+.datatabel table tbody tr td{font-size: 24px; font-weight: 600; color: #525e7f; border-left: 1px #e7edf4 solid;}
+
+.opentext {margin-bottom:30px; text-align: center;}
+.aso{position: relative;}
+.aso:before{position:absolute; content: ''; top:150px; right: 0; width: 382px; height: 308px; background:url(../images/marketing/sony/aso-right-bg.png) no-repeat top right; z-index: 0;}
+.aso:after{position:absolute; content: ''; top:400px; left: 0; width: 672px; height: 370px; background:url(../images/marketing/sony/aso-left-bg.png) no-repeat top left; z-index: 0;}
+
+.asolistpoint{margin-bottom: 50px;}
+.asolistpoint ul{margin: 0; padding:35px 20px; width: 100%; display: block; border-radius: 5px; box-shadow: 0 6px 19px 0 rgba(0, 0, 0, 0.19); border-top:8px #ff881e solid;}
+.asolistpoint ul li{width:100%; display: block; padding-bottom: 20px; padding-left: 45px; font-size: 20px; font-weight: 600; color: #525e7f; background: url(../images/marketing/sony/shape.png) no-repeat 0 3px;}
+.asoranking{font-size: 27px; font-weight: bold; color: #424b6c; text-align: center; margin-bottom: 50px;}
+.asorankgraph{font-size: 27px; font-weight: bold; color: #424b6c; text-align: center; margin-bottom: 70px;}
+.graphcontdiv h3{font-size: 27px; text-align: left;}
+.graphcontdic{width:90%; float: left;-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3); -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3); box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3); border-radius:5px; background: #fff; margin-bottom: 50px;}
+.graphimg{float:left; width: 100%; padding: 5px;}
+.graphcont{float:left; width: 100%; background: #ff881e; color: #ffffff; font-size:18px; font-weight: 600; padding: 25px; text-align: center; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;}
+
+.download{margin-bottom:150px; margin-top: 50px; padding-bottom: 50px; background: url(../images/marketing/sony/download-bg.png) no-repeat center center;}
+.methology{margin-bottom:50px; margin-top: 40px;}
+.results{margin-bottom:70px}
+
+.halfcont p{padding-left:5%; padding-right: 5%;}
+
+.downloadimg{text-align: right; padding-right:25px;}
+.downloadtext{text-align: left;}
+.downloadtext h3{text-align: left; margin-bottom: 20px;}
+.downloadtext p{margin-bottom: 30px; font-size: 24px;}
+.downloadtext a{display: inline-block; color: #ff881e; border:2px #ff881e solid; padding:15px 20px 15px 70px; margin-right:20px; border-radius: 10px; font-weight: 600;}
+.downloadtext a.iosicon{background: url(../images/marketing/sony/apple.png) no-repeat 20px center;}
+.downloadtext a.androidicon{background: url(../images/marketing/sony/playstore.png) no-repeat 20px center;}
+
+
+#footer h3{text-align: left;}
+@media (max-width: 1278px) {
+	.downloadlinks a{width:50%; margin-right:0;}
+	.downloadlinks a img{max-width:90%;}
+}
+@media (max-width: 991px) {
+	.portfoliologo{margin-top:230px;}
+	.bannerimg img{position:relative; max-width:60%; margin-top:130px;}
+	
+	.work-page #Header{height: auto !important;}
+	.header-content{transform: translateY(0);}
+	.portfoliologo{margin-top:140px; text-align: center;}
+	.downloadlinks{text-align: center}
+	.bannerimg img{margin-top:60px;}
+	.shortinfo p{padding-right: 0; font-size: 22px; line-height: 36px;}
+
+}
+@media (max-width: 800px) {
+	.portfoliologo{margin-top:110px;}
+	
+}
+@media (max-width: 767px) {
+	h3{text-align:left;}
+	.portfoliologo h3{font-size:54px;}
+	.portfoliologo {margin-top: 50px;}
+	.bannerimg img{margin-top:70px;}
+	
+	.portfoliologo{text-align: center;}
+	.downloadlinks a{width:100%; text-align: center;}
+	.downloadlinks a img{width:auto;}
+	#portfolio #Header:before{display:none;}
+	/*.work-page #Header{height: 830px !important;}*/
+	
+	#aboutapp{padding-top:0;}
+	.graphcontdic{width:100%;}
+	.downloadimg{text-align:center; margin-bottom: 15px;}
+	h2{margin-bottom:30px; text-align:left; font-size: 28px;}
+	h2 span{display:none;}
+	.download{padding-bottom: 0; margin-top:0px; margin-bottom: 0;}
+	.halfcont p{padding-left: 0; padding-right:0;}
+	.datatabel table tbody tr td{font-size:18px;}
+	.datatabel table tr th{font-size:18px;}
+	.asolistpoint ul li{font-size:17px;}
+	.asoranking,h3,.graphcontdiv h3{font-size:19px;}
+	#aboutapp{margin-bottom: 30px;}
+	.graphcont{font-size:16px;}
+	.asoranking{margin-bottom: 30px;}
+	.shortinfo p{font-size: 24px; line-height: 34px; padding-right: 0; margin-top: 20px; margin-bottom: 30px;}
+	.asorankgraph{margin-bottom:50px;}
+	.methology{margin-bottom: 20px;}
+	.results{margin-bottom: 110px;}
+	.downloadtext a{padding: 15px 70px;}
+	
+}
+@media (max-width: 579px) {
+	.bannerimg{display:none;}
+	.downloadtext a{width: 100%; margin-right: 0; margin-bottom: 15px; text-align: center;}
+}

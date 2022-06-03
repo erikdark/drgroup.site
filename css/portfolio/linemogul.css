@@ -1,0 +1,237 @@
+body{background:#926427; font-family: 'Lato', sans-serif; font-weight:normal;}
+/*.verticaltext{writing-mode: vertical-rl;
+text-orientation: mixed;}*/
+section{position:relative; z-index:1;}
+
+h1,h2,h3,h4,h5,h6{font-family: 'Quicksand', sans-serif;}
+h1{font-size:40px; font-weight:bold; color:#976b2c; text-transform:none; padding:25px 0 0 77px; height:86px;}
+h1.features{margin-bottom:50px;}
+h1.features:before{font-size:80px; font-weight:bold; color:#976b2c; position:absolute; top:0; left:0; content:'1. Features'; opacity:0.2;}
+
+.rtltext{direction:rtl;}
+.work-page #Header span.bannerwave,.work-page #Header:after,.work-page #Header:before{display:none;}
+.work-page #Header.linemogulbg{background:none;}
+.work-page #Header.linemogulbg:before{}
+
+.linemogulbanner{width:100%; display:block;}
+.lmheaderbg{width:100%; display:block; background-image: linear-gradient(200deg, #000000, #3B2810); padding-top:0px; padding-bottom:400px; position:relative; overflow:hidden;}
+.lmheaderbg:after{position:absolute; top:0; left:0; background:url(images/linemogul/banner_bg.png) no-repeat center center; width:100%; height:825px; content:'';}
+.header-content{position: relative; z-index: 5; padding-bottom: 240px;}
+.bannertext{}
+.bannerlogo{text-align:left; margin-top:200px;}
+.bannerimg{ text-align:center; margin-top:110px;}
+.bannerimg img{-ms-transform: rotate(-20deg);  -webkit-transform: rotate(-20deg); transform: rotate(-20deg); max-width:90%;}
+.banneripad{margin-top:300px;}
+.portfoliotext{color:#976b2c;}
+
+
+.featuresdiv{position:relative; z-index: 6; margin-bottom: 200px;}
+.featuresdiv:before{position:absolute; top:140px; left:-80px; width:90%; height:550px; background:#120B05; content:''; -ms-transform: rotate(-10deg); -webkit-transform: rotate(-10deg); transform: rotate(-10deg);}
+.featuresdiv:after{position:absolute; bottom:30px; right:-150px; width:90%; height:550px; background-image: linear-gradient(-237deg, #37260f, #080502); content:''; -ms-transform: rotate(-10deg); -webkit-transform: rotate(-10deg); transform: rotate(-10deg);}
+.featuresdiv .container{position: relative; z-index: 3;}
+.featuretextbox{margin-top:120px;}
+.donatebox{margin-top:200px;}
+.featuretext h4{font-size:30px; color: #976b2c; margin-bottom:15px; margin-top:50px;}
+.featuretext p{font-size:24px; color: #976b2c; line-height:36px; padding-right:80px;}
+
+
+#uxstructurediv{width:100%; float:left;background-image: linear-gradient(194deg, #000000, #3D2A10); -webkit-clip-path: polygon(0 400px, 100% 0%, 100% 100%, 0% 100%);
+clip-path: polygon(0 400px, 100% 0%, 100% 100%, 0% 100%); margin-top:-420px; position:relative; z-index: 1000; padding-top:450px;}
+#uxstructurediv p{font-size:24px; color:#efd886; padding-right:15%; margin-bottom:0;}
+
+h1.uxstructure{margin-bottom:50px;}
+h1.uxstructure:before{font-size:80px; font-weight:bold; color:#976b2c; position:absolute; top:0; left:0; content:'2. UX STRUCTURE'; opacity:0.2;}
+.uxstructureimg{position:absolute; top:-140px; left:0;}
+.uxloopimg{width:100%; float:left; background:url(images/linemogul/wireframe.png) repeat 0 0; height:668px; margin-bottom:40px;
+ background-size:2052px; margin-top:100px;
+animation: rotation 70s infinite linear;
+}
+.linepattern{background:url(images/linemogul/pattern.png) repeat 0 0; padding:30px;}
+.linepattern h3{color: #976b2c; font-size:35px; margin-bottom:20px;}
+
+.linetypographics{background:url(images/linemogul/pattern.png) repeat 0 0; padding:30px; width:90%; margin-left:10%; position:relative; margin-top:-70px;}
+.typoarrow{text-align:center; padding-top:80px;}
+.typetext h3,.linetypographics h3{font-size:35px; color: #976b2c; margin-bottom:15px;}
+.typetext p{font-size:24px; color: #efd886; font-weight:100;}
+
+.linetypographics h3{margin-bottom:40px;}
+
+.fontstylelr{font-size: 30px; font-weight:normal; font-size:30px; margin-bottom:30px;}
+.fontstylelr h4{color:#976b2c; font-weight:normal; margin-bottom:20px; font-size:30px;}
+.fontstylelr p{color:#efd886; font-weight:normal; margin-bottom:20px; font-size:30px;}
+
+.fontstylelb{font-size: 30px; font-weight:bold; font-size:30px; margin-bottom:20px; margin-top:20px;}
+.fontstylelb h4{color:#976b2c; font-weight:bold; margin-bottom:20px; font-size:30px;}
+.fontstylelb p{color:#efd886; font-weight:bold; margin-bottom:20px; font-size:30px;}
+
+.goldyelloround{width:134px; height:134px; background-image: linear-gradient(to bottom, #efd886, #926427); display:block; border-radius:50%;}
+.charcoalgreyround{width:134px; height:134px; background-image:linear-gradient(to bottom, #373737, #000000); display:block; border-radius:50%;}
+
+.colorused{font-size:30px; color: #da9a3f; margin-top:30px; margin-bottom:80px; font-weight:100; text-align:center;}
+
+.fontcolor{width:100%; float:left; margin-top:80px; position:relative;}
+.fontcolor:before{position:absolute; background:url(images/linemogul/uiux_bg_left.png) no-repeat 0 0; width:442px; height:487px; content:''; top:0; left:0; z-index:1;}
+.fontcolor:after{position:absolute; background:url(images/linemogul/uiux_bg_right.png) no-repeat 0 0; width:423px; height:487px; content:''; bottom:0; right:0; z-index:1;}
+.fontcolor .container{z-index:2; position:relative;}
+.fontcolor h2{font-size: 40px; color: #976b2c; padding:20px 0; margin-bottom:60px;}
+.fontcolor h2:before{font-size:80px; font-weight:bold; color:#976b2c; position:absolute; top:0; left:0; content:'FONTS & COLORS'; opacity:0.2; text-align:center; width:100%;}
+
+#devprocessdiv{width:100%; float:left; background-image:linear-gradient(11deg, #3F2B11, #030201); position:relative; padding-top:200px; padding-bottom:250px;}
+#devprocessdiv:before{position:absolute; top:0; left:0; width:100%; height:120px; background:url(images/linemogul/hanging.png) repeat-x center center; content:'';}
+.devprocess h1{font-size: 40px; color: #976b2c; margin-bottom:30px;}
+.devprocess h1:before{font-size:80px; font-weight:bold; color:#976b2c; position:absolute; top:0; left:0; content:'3. DEVELOPMENT PROCESS'; opacity:0.2; width:100%;}
+.devprocess p{font-size: 24px; color: #976b2c;}
+
+.devprocesstext{background:url(images/linemogul/development_cloud.png) no-repeat 0 0; background-size:100% 100%; min-height:420px; display:table; position:relative; margin-bottom:20px; margin-top:80px;}
+.devprocesstext:before{position:absolute; top:50%; margin-top:-125px; left:-10px; background:url(images/linemogul/beer.png) no-repeat 0 0; content:''; width:215px; height:251px;}
+.devprocesstextbox{padding-left:240px; padding-right:30px; margin-top:50px; display:table-cell; vertical-align:middle;}
+.devprocesstext h2{display:block; padding-bottom:10px; color:#976b2c;}
+.devprocesstext p{display:block; vertical-align:middle; color:#976b2c; line-height:34px;}
+
+.displayblock{display:inline-block !important;}
+
+.devprocesstext span{position:absolute; top:50%; margin-top:-60px; left:0; font-size:120px; font-weight:900; width:165px; text-align:center;}
+.developmentbox{background:#a27935; border-radius:20px; float:left; width:90%; margin-right:10%; margin-bottom:10px; padding:50px 35px; margin-top:150px; position:relative;}
+.developmentbox:before{position:absolute; content:''; top:-41px; left:50%; margin-left:-41px; width:82px; height:79px; background:url(images/linemogul/strip.png) no-repeat center center;}
+.developmentbox span{position:absolute; bottom:-45px; right:-45px; background:#6a4617; width:90px; height:90px; display:block; font-size:62px; font-family: 'Quicksand', sans-serif; font-weight:bold; color: #150e06; text-align:center; border-radius:50%; line-height:84px;}
+.developmentbox.devprocessrightbox{margin-left:10%; margin-right:0%; margin-top:250px;}
+.developmentbox h2{font-size:40px; font-weight: bold; color: #110c05; display:block; margin-bottom:15px; text-transform:uppercase;}
+.developmentbox p{font-size:24px; font-weight: normal; color: #160f06; display:block; margin-bottom:15px;}
+
+
+.fullwidth{width:100%; float:left;}
+.techtopbg{width:100%; height:470px; float:left; background:url(images/linemogul/tech-top_bg.png) no-repeat center center; margin-bottom:50px; margin-top:130px;}
+.techstack h1{font-size: 40px; color: #976b2c; margin-bottom:30px;}
+.techstack h1:before{font-size:80px; font-weight:bold; color:#976b2c; position:absolute; top:0; left:0; content:'4.TECH STACK'; opacity:0.2; width:100%;}
+.techicons{margin:80px 0;}
+.tachiconbg{width:100%; float:left; height:261px; background:url(images/linemogul/tech_top.png) no-repeat center center; background-size:100%; text-align:center; display:table;}
+.tachiconbg span{display:table-cell; vertical-align:middle; color: #976b2c; font-size:30px;}
+.tachiconbg span img{margin-bottom:15px;}
+.tachiconbg.toparrow:after{background:url(images/linemogul/tech-top-arrow.png) no-repeat 0 0; background-size:100%; width:100%; height:101px; position:absolute; top:-20px; left:0; content:'';}
+.tachiconbg.btmarrow:after{background:url(images/linemogul/tech-bottom-arrow.png) no-repeat center bottom; background-size:auto; width:100%; height:101px; position:absolute; bottom:-20px; left:0; content:'';}
+
+
+.downloadnow{position:relative; width:100%; float:left; margin-top:80px;}
+.downloadnow:before{position:absolute; top:190px; left:-80px; background: #96630c; opacity:0.11; content:''; width:50%; height:450px;  -ms-transform: rotate(-15deg); -webkit-transform: rotate(-15deg); transform: rotate(-15deg); z-index:1;}
+.downloadnow:after{position:absolute; top:70px; right:-80px; background: #96630c; opacity:0.11; content:''; width:50%; height:450px;  -ms-transform: rotate(-15deg); -webkit-transform: rotate(-15deg); transform: rotate(-15deg); z-index:1;}
+.downloadnow .container{z-index:2; position:relative;}
+.downloadtext{color: #976b2c; font-size:24px;}
+.downloadtext h3{color: #efd886; font-size:40px; margin-bottom:25px;}
+.downloadtext h4{color: #976b2c; font-size:28px; margin-bottom:20px;}
+.downloadtext p{color: #976b2c; font-size:24px;}
+
+.downloadlink a{background:url(images/linemogul/apple.png) no-repeat 30px center #efd886; display:inline-block; padding:18px 33px 18px 80px; position:relative; width:225px; border-radius:12px; font-size:24px; color:#000; font-weight:600;}
+.downloadlink a.playstore{background:url(images/linemogul/playstore.png) no-repeat 30px center #efd886; display:inline-block; padding:18px 33px 18px 80px; margin-top:50px;}
+.downloadlink a:hover{background-color:#d8b850; -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);}
+
+.challenges{margin-top:150px; margin-bottom:50px;}
+.challenges h1{font-size: 40px; color: #976b2c; margin-bottom:30px;}
+.challenges h1:before{font-size:80px; font-weight:bold; color:#976b2c; position:absolute; top:0; left:0; content:'5. CHALLENGES & RESULT'; opacity:0.2; width:100%;}
+.beerglass{width:100%; padding:110px 160px 0 70px; margin:180px 0 30px; background:url(images/linemogul/beerglass.png) no-repeat center top; display:block; min-height:722px; position:relative;}
+.beerglass.rightbeerglass{margin-top:30px;}
+.beerglass .glassnumber{position:absolute; top:50%; margin-top:-50px; right:0; margin-right:90px; font-size:78px; color: #976b2c; font-family: 'Quicksand', sans-serif; font-weight:bold;}
+.beerglass h3{font-size:30px; color: #cbcbcb; margin-bottom:30px; min-height:200px; text-align:center;}
+.beerglass p{font-size:24px; color: #976b2c; padding-bottom:10px;}
+
+
+.testimonial{margin-top:150px; margin-bottom:50px;}
+.testimonial h1{font-size: 40px; color: #976b2c; margin-bottom:30px;}
+.testimonial h1:before{font-size:80px; font-weight:bold; color:#976b2c; position:absolute; top:0; left:0; content:'6. TESTIMONIAL'; opacity:0.2; width:100%;}
+
+.testimonialdiv{width:100%; float:left; background:rgba(151, 107, 44,0.12); padding:50px 0 0 15%;}
+.testimonibg{width:100%; border-radius: 24px; box-shadow: 0 60px 90px 0 rgba(0, 0, 0, 0.29);  background-image: linear-gradient(182deg, #efd886, #926427); padding:50px 0 0 15px;}
+.clientimg{position:relative; background:url(images/linemogul/user_bg.png) no-repeat center center; text-align:center; height:276px;}
+.clientimg img{border-radius:50%; width:144px; margin-top:66px;}
+
+.clientsay{padding-left: 40px;}
+.clientsay h3{font-size:40px; font-weight:bold; color:#000; margin-bottom:40px; padding-bottom:30px; position:relative;}
+.clientsay h3:before{position:absolute; content:''; width: 73px; height:6px; background:#efd886; display:block; border-radius:6px; bottom:0; left:0;}
+.clientsay p{font-size:24px; font-weight:normal; color:#000;}
+
+#footer:after{z-index:1;}
+.work-page #footer{margin:0;}
+
+.uidesigndiv{position:relative; margin-top:80px;}
+.uidesignfirstimg{margin-top:-160px;}
+.uidesigntitle{position:absolute; top:0; right:0; height:100%; width:117px;}
+.uidesigntitle h1{font-size: 40px; color: #976b2c; margin-bottom:30px; writing-mode: vertical-rl; text-orientation: mixed; text-align:center; height:100%; padding:0;}
+.uidesigntitle h1:before{font-size:80px; font-weight:bold; color:#976b2c; position:absolute; top:0; left:0; content:'UI DESIGN'; opacity:0.2; width:100%; height:100%; text-align:center;}
+
+
+
+
+@keyframes rotation {
+  from {
+    background-position:0 0
+  }
+  to {
+    background-position:-1920px 0;
+  }
+}
+@media (max-width:1660px) {
+
+}
+@media (max-width:1440px) {
+
+}
+@media (max-width:1280px) {
+.featuretext p,#uxstructurediv p{padding-right:0;}
+.goldyelloround,.charcoalgreyround{width:95px; height:95px;}
+}
+
+@media (max-width:1024px) {
+
+}
+@media (max-width:767px) {
+	.featuretext h4,.developmentbox h2,.downloadtext h4{font-size:24px;}
+	.featuretext p,#uxstructurediv p,.devprocess p,.developmentbox p,.devprocesstext p,.downloadtext p{font-size:20px;}
+	.typetext h3, .linetypographics h3,.devprocess h1{font-size: 30px;}
+	
+	h1:before{font-size:50px !important;}
+	.banneripad,.bannerimg,.typoarrow{display:none}
+	.bannerlogo,.portfoliotext{text-align:center;}
+	.featuretextbox,.donatebox{margin-top:0;}
+	.lmheaderbg{padding-bottom:20px;}
+	.uxstructureimg{top:0; left:50%; margin-left:-230px}
+	.linepattern{margin-top:35px; text-align:center;}
+	.goldyelloround,.charcoalgreyround{display:inline-block;}
+	.linetypographics{width:100%; margin-left:0;}
+	.colorused{text-align:left;}
+	.uidesignfirstimg{margin-top:0;}
+	.tachiconbg{background-size:auto;}
+	.tachiconbg.toparrow{margin-top:100px; margin-bottom:30px;}
+	.tachiconbg.btmarrow{margin-bottom:20px; margin-bottom:30px;}
+	.tachiconbg.toparrow:after,.tachiconbg.btmarrow:after{background-position:center top; background-size:auto;}
+	.tachiconbg.toparrow:after{top:70px;}
+	.tachiconbg.btmarrow:after{bottom:-20px;}
+	.testimonialdiv{padding:15px;}
+	.testimonial{margin-top:50px;}
+	.testimonial h1{margin-bottom:0;}
+	#devprocessdiv{padding-bottom:110px;}
+	.quoteimg{display:none;}
+	.downloadlink,.uxphone{text-align:center;}
+	.devprocesstext p{display:block; padding:0;}
+	.devprocesstext{padding-bottom:30px;}
+	.devprocesstext span{position:relative; margin-left:-45px; display: none;}
+	.devprocesstext:before{width:100%; top:0; margin-top:-70px; background-position:top center; display: none;}
+	.devprocesstext p{margin-top:30px; padding:0 60px;}
+	.clientsay{padding-left: 15px; padding-right: 15px;}
+	.clientsay h3{font-size:34px; margin-top:20px; margin-bottom:20px;}
+	.clientsay p{font-size:20px; margin-bottom:20px;}
+	.testimonibg{padding-top: 10px;}
+	h1{padding:7px 0 0 7px;}
+	h1.features{margin-bottom:0;}
+	h1.features:before,h1.uxstructure:before,.fontcolor h2:before,.devprocess h1:before,.techstack h1:before,.testimonial h1:before{font-size:50px;}
+	.techstack{margin-top: 50px;}
+	.techstack h1{margin-bottom:0;}
+	.fontcolor h2{padding:7px 0; margin-bottom:0;}
+	.uidesigntitle h1:before,.uidesigntitle h1{text-align:left;}
+	.techicons{margin-top:0;}
+	.techtopbg{height:290px; display: none;}
+	.developmentbox.devprocessrightbox{margin-left:0; margin-top: 100px;}
+	.devprocesstextbox{padding-left: 0;}
+	.devprocesstext{background: none; margin-top: 0; min-height: 100px;}
+	.devprocesstext p{padding: 0; text-align:left;}
+	.downloadnow{margin-top: 0;}
+	.fontstylelr p,.fontstylelb p{word-break: break-all;}
+}

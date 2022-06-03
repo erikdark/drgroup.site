@@ -1,0 +1,127 @@
+body{background:#fff;}
+
+section{position:relative; z-index:1;}
+section *{font-family: 'Open Sans', sans-serif;}
+img{max-width: 100%;}
+
+.work-page #Header span.bannerwave,.work-page #Header:after,.work-page #Header:before{display:none;}
+
+
+body{background: #fff; color:#adadad;}
+#portfolio.work-page #Header.hangskibg{background:#20dc6b; /*height:983px;*/ padding-bottom:830px; }
+#portfolio.work-page #Header:before{position: absolute; bottom:520px; left: 0; right:auto; content: ''; display: block; width: 155px; height: 335px; background: url(images/hangski/banner-leftbg.png) no-repeat 0 0; animation:none;}
+#portfolio.work-page #Header:after{position: absolute; bottom: 590px; left: auto; right: 0; content: ''; display: block; width: 164px; height: 371px; background: url(images/hangski/banner-rightbg.png) no-repeat 0 0; animation:none;}
+.bannerimg img{position:relative;}
+h3{font-size: 44px; font-weight: bold; color: #000000; position: relative; text-align:left;}
+h4{font-size: 61px; font-weight: 600; color: #4a4a4a; position: relative; margin-bottom: 60px;}
+
+
+#appfeaturediv{margin-top:-830px; z-index: 1000;}
+#appfeaturediv:before{position: absolute; top: 50px; left: 0;  content: ''; display: block; width: 1550px; height:1623px; border-radius: 50%; background:#fafafa; z-index: 1;}
+#appfeaturediv:after{position: absolute; top: 200px; right: -300px;  content: ''; display: block; width: 1330px; height:1623px; border-radius: 50%; background-image: linear-gradient(344deg, #f8f8f8 54%, #f3f3f3 15%); z-index: 2;}
+
+#appfeaturediv .fullwidthdiv{position: relative; z-index: 3;}
+h3 .feanum{display: block; position: absolute; top:0; left: 0; background: url(images/hangski/title-bg.png) no-repeat 0 0; width:128px; height: 120px; color: #fff; padding-left: 30px; padding-top: 22px; text-align: left; font-size: 44px;}
+h3 .featitle{display: inline-block; padding-top: 30px; padding-left: 150px; position: relative; min-height: 120px; font-size: 44px;}
+.appfeatures h3{text-align: left; padding-left: 20%; margin-bottom: 120px;}
+
+#wireframe{position: relative;}
+#wireframe:before{position: absolute; top: 0px; right: 0; content: ''; display: block; width: 101px; height:123px; background: url(images/hangski/wireframe-rightbg.png) no-repeat 0 0; animation:none;}
+#wireframe:after{position: absolute; top: 50%; left: 0; margin-top:-198px; content: ''; display: block; width:263px; height:396px; background: url(images/hangski/wireframe-leftbg.png) no-repeat 0 0; animation:none;}
+.wireframe h3{text-align: left; padding-left:0; margin-top: 40px; margin-bottom:20px;}
+#wireframe .container{z-index: 2; position: relative;}
+
+.wireframe {text-align: center; padding-bottom: 30px;}
+#uiuxdesign{background-image: linear-gradient(to bottom, #f5f5f5 6%, #ffffff 77%); overflow-y: visible; z-index: 1001;}
+#uiuxdesign:before{position: absolute; top:-180px; left: 50px; content: ''; display: block; width: 277px; height: 277px; background: url(images/hangski/wireframe-illustration.png) no-repeat 0 0; animation:none;}
+#uiuxdesign:after{position: absolute; top:300px; left: auto; left: 40px; content: ''; display: block; width:331px; height: 200px; background: url(images/hangski/uidesign-icon.png) no-repeat 0 0; animation:none;}
+#uiuxdesign .fullwidthdiv{background: url(images/hangski/uidesign-bg.png) no-repeat top center; padding-top:180px;}
+
+#uiuxdesign h3{text-align: center; margin-bottom:100px;}
+.appicon{padding-top: 30px;}
+
+.font34gray{font-size: 34px; line-height: 34px; color:#d0d0d0; font-weight: 500; width: 100%; display: block; padding-top: 20px;}
+.fontaagray{font-size: 178px; line-height: 178px; color:#d0d0d0; font-weight: 500; width: 100%; display: block;}
+.font16gray{font-size: 57px; line-height: 57px; color:#d0d0d0; font-weight: 500; width: 100%; display: block; padding-bottom:30px; padding-top: 20px;}
+.font14gray{font-size: 46px; line-height: 46px; color:#d0d0d0; font-weight: 500; width: 100%; display: block; padding-bottom:30px;}
+.font12gray{font-size: 34px; line-height:34px; color:#d0d0d0; font-weight: 500; width: 100%; display: block; padding-bottom:30px;}
+
+.colors{margin-top:110px;}
+
+
+
+#devprocess:before{position: absolute; top: 50px; left: 0;  content: ''; display: block; width: 1550px; height:1623px; border-radius: 50%; background:#fafafa; z-index: 1;}
+#devprocess:after{position: absolute; top: 200px; right: -200px;  content: ''; display: block; width: 1330px; height:1623px; border-radius: 50%; background-image: linear-gradient(344deg, #f8f8f8 54%, #f3f3f3 15%); z-index: 2;}
+#devprocess .fullwidthdiv{position: relative; z-index: 3;}
+
+.devprocess h3{text-align: left; padding-left: 10%; margin-bottom: 120px; margin-top: 180px;}
+
+.processtext{display:block;}
+.processtitle{font-size: 25px; font-weight: 600; color: #4a4a4a;}
+.processtitle strong{font-size: 41px; font-weight: bold;}
+.processtext{font-size: 20px; font-weight: 600;}
+
+.processimg{display: block;}
+.processlinetop{width:100%; height: 281px; background: url(images/hangski/linedot-1.png) no-repeat center top; margin-top: 20px;}
+.processlinebtm{width:100%; height: 281px; background: url(images/hangski/linedot.png) no-repeat center bottom; margin-bottom: 20px; margin-top: -10px;}
+.processicon{width: 100%; height: 224px; line-height: 208px; margin-top: -10px; background: url(images/hangski/proc.png) no-repeat center bottom; text-align: center; position: relative;}
+.processicon:before{position: absolute; top:0; margin-top: -53px; right: -10px; margin-right: -70px; background: url(images/hangski/process-line-1.png) no-repeat 0 0;  width: 141px; height: 106px; content: '';}
+
+.processiconintop .processicon:before{background: url(images/hangski/process-line-2.png) no-repeat 0 0; margin-top:170px;width: 139px; height: 110px;}
+.nodeshline.processiconintop .processicon:before{display: none;}
+
+.processiconintop{margin-top: 350px;}
+
+#challenges{position: relative; padding-top: 80px;}
+#challenges:after{position: absolute; top:0; left: 0; margin-top:0px; content: ''; display: block; width:216px; height:353px; background: url(images/hangski/challenges-leftbg.png) no-repeat 0 0; animation:none;}
+.challenges {margin-bottom:230px;}
+.challenges h3{text-align: right; padding-right:10%; margin-top: 40px; margin-bottom:20px;}
+#challenges .container{z-index: 2; position: relative;}
+
+
+#techstack{background-image: linear-gradient(to bottom, #f5f5f5 6%, #ffffff 77%); position: relative; padding: 215px 0 50px;}
+#techstack:before{background: url(images/hangski/techstack-bg.png) no-repeat center center; content: ''; width: 100%; height: 214px; position: absolute; top:0; left: 0; display: block;}
+#techstack h3{margin-bottom:60px;}
+
+#download{padding-bottom: 263px;}
+#download:after{width: 100%; height:830px; position: absolute; bottom: 0; left: 0; content: ''; background: url(images/hangski/client-bg.png) no-repeat top center;}
+#download h3{margin-bottom:80px;}
+.downloaddevice{margin-top: -140px;}
+.download-illu{float: left; padding-left: 17px;}
+.downloadbtn{float:left; margin-left: -25px; margin-top: 25px;}
+.downloadbtn a{border-radius: 13px; color: #fff; display: inline-block; padding:10px 20px 10px 80px; font-size:26px; font-weight: 600; background:#20dc6b url(images/hangski/apple.png) no-repeat 30px center;}
+
+#client{margin-top: -380px; margin-bottom: 170px;}
+.client{margin-bottom:80px;}
+.client h3{text-align: right}
+.clienttext{/*clip-path: polygon(0 0, 100% 50px, 89% 98%, 30px 93%);*/ border-radius: 30px; background:#20dc6b; position: relative; padding:100px 90px; font-size: 20px;
+  font-weight: 600; color: #fff; text-align: center;}
+.clienttext:before{position: absolute; content: ''; display: block; width: 76px; height: 80px; top:20px; left:20px; background: url(images/hangski/left-quote.png) no-repeat 0 0;}
+.clienttext:after{position: absolute; content: ''; display: block; width: 76px; height: 80px; bottom:20px; right:20px; background: url(images/hangski/right-quote.png) no-repeat 0 0;}
+
+.clientinfo{font-size: 34px; color: #4a4a4a; text-align: center; margin-bottom: 40px;}
+
+.challengbox{border-radius: 10px; background-color: #20dc6b; padding:45px 25px 35px; height: 100%;}
+.challengnumber{position:absolute; top:0; margin-top: -45px; left: 50%; margin-left: -45px; box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.12); border-radius: 50%;  background-color: #ffffff; width: 90px; height: 90px; text-align: center; font-size:46px; font-weight: 600; color: #adadad; padding: 10px 0;}
+.challengicon{font-size: 25px; font-weight: 600; color: #fff; padding-left:80px; padding-top: 8px; padding-bottom: 8px; min-height: 85px; margin-top: 15px;}
+.bulb{background: url(images/hangski/bulb.png) no-repeat 0 0;}
+
+.challengtext{font-size: 20px; font-weight: 600; padding-top: 20px; color: #fff;}
+@media (min-width:1600px) {
+	.banner-container {
+		max-width: 94%; padding-top:120px;
+	}
+}
+@media (max-width:1600px) {
+	
+}
+@media (max-width:1440px) {
+
+}
+@media (max-width:1024px) {
+
+}
+@media (max-width:767px) {
+#Header .container{ position: absolute; top:50%; transform: translateY(-50%);}
+	body #Header .navbar{padding: 35px 0!important}
+}

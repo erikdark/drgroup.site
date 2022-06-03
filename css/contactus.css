@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+section.fullheight{height: 100%; padding-top: 70px;}
+section.fullheight .inner{position: relative; transform: translateY(0%); top: 0;}
+
+.formtitle{font-size: 52px; font-weight: 600; letter-spacing: 2px; color: #fff; margin-top: 0px; margin-bottom: 20px;}
+.form-control{background: #141415;}
+select.form-control option {color: #333;}
+
+.btn-outline-primary{border-color: #fff;}
+.btn-outline-primary:hover{background: #fff !important; color:#1f1f20 !important; }
+
+.contectform{padding-bottom:35px;}
+
+.conticon{padding-bottom: 15px; margin-top: 30px;}
+.conttext{font-size:26px;font-weight: 600; margin-bottom: 30px;}
+
+.addressbox{margin-top:50px; margin-bottom: 50px; background: url(../images/contactus/mask.svg) no-repeat center bottom; background-size:95%;}
+.addressicon,.addresstitle,.addresstext,.addresscall{text-align: center; width: 100%; display: block; margin-bottom: 10px;}
+.addresstitle{font-size:30px; font-weight:bold; color:#1f1f20; letter-spacing:1px;}
+.addresstext,.addresstext a{font-size: 18px; font-weight: normal; color: #7a7a7a;  letter-spacing:1px;}
+.addresstext a:hover{color: #1f1f20;}
+.addresscall{font-size: 18px; font-weight: normal; color: #1f1f20; letter-spacing:1px;}
+
+@media (max-width:1659px) {
+	.formtitle{font-size:30px;}
+}
+@media (max-width:1599px) {
+	.conttext{font-size: 18px;}
+}
+
+@media (max-width:1439px) {
+}
+@media (max-width:1280px) {
+	
+}
+@media (max-width:1199px){
+}
+@media (max-width:991px) {
+	.formtitle{margin-top: 50px;}
+	.contectform{padding-bottom: 50px;}
+	.contactrowmar{text-align: center;}
+}
+@media (max-width:767px) {
+	.addressbox{margin-top: 0;}
+}

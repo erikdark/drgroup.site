@@ -1,0 +1,237 @@
+body{background:#240840; font-family:'Open Sans', sans-serif; color:#bf8fee;}
+/*.verticaltext{writing-mode: vertical-rl;
+text-orientation: mixed;}*/
+section{position:relative; z-index:1; width: 100%; float: left;}
+h2{font-size: 26px; font-weight: bold; letter-spacing: 0.78px; color: #ffffff;}
+p{font-size: 20px; font-weight: 600; line-height: 1.85; letter-spacing: 0.6px; color: #ffffff;}
+.work-page #Header .header-content{top:0; transform:translateY(0); width: 100%; min-width: 100%;}
+.work-page #Header span.bannerwave,.work-page #Header:after,.work-page #Header:before{display:none;}
+
+.work-page #Header.linemogulbg{}
+.work-page #Header.linemogulbg:before{}
+
+.fullwidthdiv{width: 100%; display: block; position: relative;}
+.bannerimg img{right:-50px;}
+.work-page #Header.bannerbg{background:url(images/openchair/banner_bg.png) no-repeat center top; height:983px;}
+
+.titleconcept{position: relative; margin-bottom: 50px;}
+.titleconcept:before{background: url(images/openchair/title-concept.png) no-repeat 0 0; position: absolute; content: ''; top: 90px; left: 260px; z-index: 1; width: 183px; height: 68px;}
+.concepttitle{margin-top: 20px; margin-bottom: 50px;}
+.concepttitle h1{font-size: 45px; font-weight: 600; text-align: center; color: #894dc3;}
+.concepttext{font-size: 20px; line-height: 2.25; letter-spacing: normal; font-weight: normal; color: #bf8fee;}
+.concepttext p{font-size: 20px; font-weight: normal; color: #bf8fee;}
+
+.projectinfo{width: 100%; padding: 50px 50px 35px; border-radius: 2px; border: solid 1px #3d1568; margin: 80px 0;}
+.projectinfo h3{font-size: 20px; font-weight: 600; color: #bf8fee; text-transform: uppercase; letter-spacing: 7px; margin: 0 0 10px; padding: 0;}
+.projectinfo p{font-size: 20px; font-weight: normal; color: #9961d7; margin: 0; padding:0 0 15px }
+
+
+#appfeaturediv{padding-bottom:80px; z-index: 2;}
+
+.resp-tabs-list{margin: 0; padding: 0;}
+.resp-tab-item{font-size: 28px; font-weight: normal; letter-spacing: 0.88px; color: #9961d7; list-style: none; margin-bottom:30px; padding-bottom:30px; border-bottom:1px solid #3d1568; padding-left:60px; background: url(images/openchair/dot_nonselected.png) no-repeat 0 7px; cursor: pointer;}
+.resp-tab-item.resp-tab-active{background: url(images/openchair/dot_selected.png) no-repeat 0 7px; color:#ff176e;}
+h3.resp-accordion{display: none; font-size: 30px; font-weight: normal; letter-spacing: 0.88px; color: #9961d7;}
+
+.stepcontbox{margin-top:120px;}
+.stepimg{width: 40%; position: absolute; top:70px; left: -30px; z-index: 2;}
+.steptextbox{border-radius: 45px; background-image: linear-gradient(to bottom, #461675, #ffba41); padding:90px 60px 60px 80px; color: #fff; width: 70%; float: right;}
+
+.steptext{background-color: #ff176e; border:15px #240840 solid; height: 100px; line-height: 70px; width: 100px; text-align: center; float: left; position: absolute; top:-40px; right:-40px; border-radius: 50%; font-size: 51px; font-weight: bold;}
+
+.stepimg.stepimg2{width: 100%; text-align: center; left: 0; top:auto; bottom: 0;}
+.stepimg.stepimg3{width: 100%; top: auto; bottom:-110px; left: 0;}
+.feature3a{float: left; width: 60%; padding-right: 30px;}
+.feature3b{float: left; width: 40%; padding-left: 20px;}
+.steptextbox.steptextbox2{width: 100%;}
+.steptextbox.steptextbox3{width:70%; margin-right: 25%;}
+.stepcontbox.stepcontbox3{margin-top: 440px;}
+
+.steptextbox.steptextbox4{width:70%; margin-right: 15%;}
+.stepcontbox.stepcontbox4{margin-top: 60px;}
+.stepimg.stepimg4{width: 100%; position: relative; left: -180px;}
+.stepbox.stepbox4{margin-top:200px;}
+
+
+#uiuxdesign{background:url(images/openchair/ui_bg.png) no-repeat center top; margin-top:0px; clip-path: polygon(0 0, 100% 100px, 100% 100%, 0% 100%); padding-top:150px; background-size: cover;}
+
+.fonallogoimg{text-align: center; padding-left:8.25%; margin-top: 50px;}
+.fonallogotext{font-size: 24px; font-weight: bold; color: #bf8fee;}
+.logoversion{}
+.logov2{margin-top: -70px; text-align: right;}
+.logov3{margin-top: -70px;}
+.finallogo{text-align: center; margin-top: 50px; margin-bottom: 20px;}
+
+#wireframe{background:url(images/openchair/wireframe.png) repeat center top; padding-top: 90px; margin-bottom: 60px;}
+#wireframe:after{position: absolute; content: ''; bottom:0; left: 0; height: 275px; width:174px; background:url(images/openchair/brush.png) no-repeat center top; z-index: 1;}
+#wireframe:before{position: absolute; top:0; left: 0; background: #240940; width: 100%; height: 90px; content: '';}
+.uititle{margin-top: -30px; margin-bottom: 45px;}
+.wireframeimg{margin-top: 50px; margin-bottom: 50px;}
+
+#fonts{background:#240840; padding-bottom: 40px;}
+.titlefont{font-size: 25px; font-weight: bold; letter-spacing: 0.75px; color: #894dc3; background:url(images/openchair/tex1.png) no-repeat 0 0; padding-left: 190px; line-height: 180px;}
+.colorbg{float: right; border-radius: 36px; border: solid 5px #391062; height: 194px; width: 194px; text-align: center; line-height: 182px; margin-top: 20px;}
+
+#developmentprocess{background: #2d0c4d; clip-path: polygon(0 150px, 100% 0, 100% 100%, 0% 100%); padding-top: 150px;}
+#developmentprocess:after{position: absolute; content: ''; top:80px; right:50px; height:336px; width:592px; background:url(images/openchair/hairpin.png) no-repeat center top; z-index: 1;}
+#developmentprocess .container{position: relative;}
+.topprocess{position: absolute; top: 0; left: 0;}
+.btmprocess{position: absolute; bottom: 0; left: 0;}
+.processimg{padding:60px 0 220px;}
+
+.dptext{padding: 30px 160px 0 0;}
+.dptext h2{color: #bf8fee; font-size: 28px; font-weight: 600;}
+.dptext p{color: #bf8fee; font-size: 20px; font-weight: 500;}
+.dpnumber{position: absolute; text-align: center; line-height: 100px; font-size: 73px; color: #bf8fee; font-weight: bold; top:0; right: 0; width: 156px; height: 140px; background:url(images/openchair/dvelop_number.png) no-repeat center top;}
+.dptextbox.leftnum .dptext{padding: 0 0 0 160px;}
+.dptextbox.leftnum .dpnumber{right: auto; left: 0;}
+
+#challenges{background: #2d0c4d;}
+.challengescont{background: #340e58; padding:40px; position: relative; width: 90%;}
+.challengescont:after{position: absolute; top:50%; margin-top: -25px; left:-50px; content: ''; border-style: solid; border-width: 50px 50px 50px 0;
+border-color: transparent #340e58 transparent transparent;}
+.challengescont h2{font-size: 28px; font-weight: 600; color: #bf8fee; margin-bottom: 30px;}
+.challengescont p{font-size: 20px; font-weight: 500; color: #bf8fee;}
+.challengescontbox{margin-top: 70px;}
+.challengesextraimg{position: absolute; width: 197px; height:561px; bottom:40px; left: -50px; }
+.saloonimg{margin-top: 50px;}
+
+#workpagecontent{background: #2d0c4d; padding: 50px 200px 350px;}
+#workpagecontent:before{position: absolute; content: ''; bottom: 0; left: 0; height:140px; width: 100%; background: #240840; clip-path: polygon(0 120px, 100% 0, 100% 100%, 0% 100%);}
+#workpagecontent:after{position: absolute; content: ''; top:50%; margin-top:-635px; right:20px; height:1276px; width:299px; background:url(images/openchair/hair-dryer.png) no-repeat center top; z-index: 1;}
+#techstack{background:#240840; padding: 0; overflow: visible;}
+#techstack .container{z-index: 2; position: relative;}
+.techtitle{margin-top: -20px; margin-bottom: 50px; padding-right:15%;}
+.techmar{margin-top: 350px;}
+
+.downloadmain{background:#240840; border-top-left-radius: 90px; border-top-right-radius: 90px; padding-left: 150px; padding-top: 80px; padding-right: 15px;}
+.downloadmain h3{color: #ff176e; font-size: 49px; font-weight: 600; margin-bottom: 10px;}
+.downloadmain h4{font-size:26px; font-weight:500; color: #bf8fee; margin-bottom:40px;}
+.dwonloadbtn{width: 100%; display: block;}
+.dwonloadbtn a{display: inline-block; background-image: linear-gradient(104deg, #ffba41 8%, #ff176e); padding:15px 25px 15px 75px; border-radius: 13px; font-size: 25px; font-weight: 600; color:#fff; position: relative;}
+.dwonloadbtn a:before{background:url(images/openchair/appple.png) no-repeat 0 0; content: ''; width: 30px; height: 37px; position: absolute; top:50%; margin-top: -17px; left: 30px;}
+.downloadcont{padding-top:310px; padding-bottom: 200px; position: relative;}
+.downloadcont:before{position: absolute; content: ''; top:-290px; left: 0; background-image: linear-gradient(181deg, rgba(36,8,64,0.00) 28%, rgba(137,77,195,0.34) 57%, rgba(36,8,64,0.00) 97%); width: 100%; height:100%; z-index: 1;}
+/*.downloadcont:after{position: absolute; content: ''; bottom:0px; left: 0; background:url(images/openchair/lady-hair.png) no-repeat center bottom; width: 100%; height:272px; z-index: 3;}*/
+.downloadphone{margin-top: -290px; padding-bottom:90px;}
+.downloadtext{background:url(images/openchair/download_1.png) no-repeat center bottom; }
+
+#client{background:url(images/openchair/lady.png) no-repeat top left #370f5e; padding-top: 80px; padding-bottom: 130px;}
+.clienttext p{font-size: 24px; font-weight: 600; color: #bf8fee; line-height: 2.5; letter-spacing: 0.72px;}
+.clienttext h2{font-size: 30px; font-weight: 600; color: #bf8fee; text-align: center; margin-top: 30px; margin-bottom: 30px;}
+.work-page #footer{z-index: 5;}
+
+
+/*************/
+.banneranim{position: absolute; top:0; right: 20px; background:url(images/openchair/banner-anim-bg.png) no-repeat center bottom; width: 292px; height: 292px; padding-top: 20px; padding-left: 20px; }
+
+.colorbg img {
+  animation: rotate 1.5s linear infinite;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.trimmer {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.chair {
+  animation: chair 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes chair {
+  0% { padding-left: 0px; }
+  50% { padding-left: 70px; }
+  100% { padding-left: 0px; }
+}
+/************/
+@media (max-width:1660px) {
+
+}
+@media (max-width:1599px) {
+	.btmprocess,.topprocess{position: relative;}
+	.processimg{padding: 40px 0;}
+	.dptextbox{margin:30px 0;}
+	#workpagecontent{padding: 80px 50px 160px;}
+	.projectinfo p{margin-bottom:25px;}
+	.concepttitle h1{font-size: 36px;}
+	.resp-tab-item,.projectinfo p{font-size: 24px;}
+	.titlefont{padding-left: 15px; line-height: 24px; background-position: bottom left;}
+	.fontimg{margin-top: 50px; margin-bottom: 20px;}
+	#developmentprocess:after,#workpagecontent:after{display: none;}
+	.downloadmain h3{font-size: 40px;}
+	.downloadmain h4{font-size: 22px;}
+	
+}
+@media (max-width: 1599px) and (min-width: 992px) {
+	.col-xl-4.customwidthlep{width: 50%; flex: 0 0 50%; max-width: 50%;}
+	.dptext{padding-right: 180px;}
+	.dpnumber{right: 20px;}
+	.dptextbox.leftnum .dptext{padding-left: 180px;}
+	.dptextbox.leftnum .dpnumber{left: 20px;}
+	.chair img{width: 70%;}
+}
+@media (max-width:1200px) {
+	/*.btmprocess,.topprocess{position: relative;}
+	.processimg{padding: 40px 0;}
+	.dptextbox{margin:30px 0;}
+	#workpagecontent{padding: 80px 50px 160px;}
+	.projectinfo p{margin-bottom:25px;}
+	.concepttitle h1{font-size: 36px;}
+	.resp-tab-item,.projectinfo p{font-size: 24px;}
+	.titlefont{padding-left: 15px; line-height: 24px; background-position: bottom left;}
+	.fontimg{margin-top: 50px; margin-bottom: 20px;}
+	#developmentprocess:after,#workpagecontent:after{display: none;}*/
+
+}
+@media (max-width: 991px) {
+	.work-page #Header.bannerbg{height: auto;}
+	.portfoliologo{margin-top: 90px;}
+	.bannerimg{display: none;}
+	ul.resp-tabs-list,.tab-items-list {display: none;}
+	h3.resp-accordion {display: block; margin-bottom: 10px; font-size: 22px; background: url(images/openchair/dot_nonselected.png) no-repeat 0 7px; padding-left: 50px; line-height: 52px;}
+	.concepttitle h1{font-size: 28px;}
+	.logov2{margin-top: 0;}
+	.logov3{margin-top: 25px;}
+	.downloadmain{padding-left: 15px;}
+	.concepttext p,.resp-tab-item, .projectinfo p{font-size: 18px;}
+	.titlefont{background: none; padding: 30px 15px; text-align: center;}
+	.colorbg{margin: 15px auto; float: none; display:block;}
+	.fontimg{text-align: center;}
+	.dpnumber{width: 100%; position: relative;}
+	.dptext,.dptextbox.leftnum .dptext{padding:30px 0; width: 100%;}
+	.dptextbox{margin: 0;}
+	.downloadtext{padding:80px 15px}
+	#wireframe:after{display: none;}
+}
+@media (max-width:767px) {
+	.banneranim{position: relative; width: 100%;}
+	.titleconcept:before{left: 15px; top:0px;}
+	.projectinfo{padding: 20px; margin-top: 15px; margin-bottom: 15px;}
+	#wireframe{margin-bottom: 20px;}
+	.dptext h2{margin-bottom: 20px;}
+	.dptext p{font-size: 18px;}
+	.chair,.stapnumber{display: none;}
+	#workpagecontent{padding: 15px;}
+	.challengescont{width: 100%;}
+	.techtitle{margin-top: 15px;}
+	.techmar{margin-top: 20px;.resp-tab-item.resp-tab-active}
+}

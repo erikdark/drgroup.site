@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63.1 (101010) - https://sketch.com -->
+    <title>AD6E3CF3-013A-4B2C-858B-3F7F2ECC3FFC</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M22.1517862,0 C18.1456507,1.35338062 15.023622,2.70676553 15.4687491,8.57142347 C19.4748863,7.66916544 23.0420404,5.41352678 22.1517862,0 Z M9.42857089,8.1428523 C5.57142825,8.1428523 0,11.5714045 0,17.9999679 C0,27.0000054 6,36 9.42857089,36 C12,36 14.1428563,34.2857153 15.857142,34.2857153 C17.5714276,34.2857153 19.2857149,36 21.8571433,36 C25.2857146,36 29.1428572,30.8571459 30,26.142863 C27,24.0000071 24.8571432,22.7142936 24.8571432,18.8571102 C24.8571432,16.2856874 27,13.7142604 29.5714286,11.5714045 C28.2857144,9.85713699 25.714286,8.1428523 23.1428575,8.1428523 C20.5714291,8.1428523 17.8062521,10.1773268 15.857142,10.2857082 C14.1428563,10.2857082 12,8.1428523 9.42857089,8.1428523 Z" id="path-1"></path>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="WveLabs_Home" transform="translate(-211.000000, -2171.000000)">
+            <g id="Group-28" transform="translate(211.000000, 1994.000000)">
+                <g id="Group-18" transform="translate(0.000000, 177.000000)">
+                    <g id="iOS">
+                        <g id="grey_grad" transform="translate(10.000000, 7.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

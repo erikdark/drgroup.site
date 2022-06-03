@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+.innerheader{padding:0px 0; min-height: 100vh;}
+.contentsection{padding:50px 0; min-height: 100vh; position: relative; display: flex; overflow: hidden;}
+.contentsection .container{position: relative; z-index: 2;}
+.contentsection .container,.innerheader .container.bannertext{min-height: 100vh;}
+.contentsection .container .row{min-height: 100vh;}
+
+.contentsection:after {content: " "; position: absolute; top: 0; right: 0; bottom: 0; left: 0; transform: translateZ(-1px) scale(1.5); background-size: 60% !important; z-index: -1;}
+
+.mad.contentsection:after{position: absolute; top:0; left: 0; width: 100%; height: 100%; z-index: 1; background: url(../images/services/mad.png) center right 40px no-repeat;}
+.digitaldesign.contentsection:after{background: url(../images/services/ddb.svg) center left 40px no-repeat;}
+.wd.contentsection:after{background: url(../images/services/wd.svg)  center right 40px no-repeat;}
+.es.contentsection:after{background: url(../images/services/es.svg) center left 40px no-repeat;}
+.dm.contentsection:after{background: url(../images/services/dm.svg)  center right 40px no-repeat;}
+.sm.contentsection:after{background: url(../images/services/sm.svg) center left 40px no-repeat;}
+
+
+/*.mad{background: url(../images/services/mad.png) bottom -100% right 40px no-repeat; transition: background-position 1s ease;}
+.digitaldesign{background: url(../images/services/ddb.svg) bottom -100% left 40px no-repeat; transition: background-position 1s ease;}
+.wd{background: url(../images/services/wd.svg) bottom -100% right 40px no-repeat; transition: background-position 1s ease;}
+.es{background: url(../images/services/es.svg) bottom -100% left 40px no-repeat; transition: background-position 1s ease;}
+.dm{background: url(../images/services/dm.svg) bottom -100% right 40px no-repeat; transition: background-position 1s ease;}
+.sm{background: url(../images/services/sm.svg) bottom -100% left 40px no-repeat; transition: background-position 1s ease;}*/
+
+/*.mad.is-Active{background-position:center right 40px;}
+.digitaldesign.is-Active{background-position:center left 40px;}
+.wd.is-Active{background-position:center right 40px;}
+.es.is-Active{background-position:center left 40px;}
+.dm.is-Active{background-position:center right 40px;}
+.sm.is-Active{background-position:center left 40px;}*/
+
+
+.i-apple{background: url(../images/services/apple.svg) no-repeat 0 3px;}
+.i-android{background: url(../images/services/android.svg) no-repeat 0 3px;}
+.i-hybrid{background: url(../images/services/hybrid.svg) no-repeat 0 3px;}
+.i-ar{background: url(../images/services/ar.svg) no-repeat 0 3px;}
+.i-iot{background: url(../images/services/iot.svg) no-repeat 0 3px;}
+
+.i-uiux{background: url(../images/services/designer.svg) no-repeat 0 3px;}
+.i-logodesign{background: url(../images/services/logo.svg) no-repeat 0 3px;}
+.i-brand{background: url(../images/services/branding.svg) no-repeat 0 3px;}
+.i-graphic{background: url(../images/services/gd.svg) no-repeat 0 3px;}
+.i-pw{background: url(../images/services/pw.svg) no-repeat 0 3px;}
+
+.i-pwa{background: url(../images/services/pwa.svg) no-repeat 0 3px;}
+.i-ecommerce{background: url(../images/services/ecommerce.svg) no-repeat 0 3px;}
+.i-api{background: url(../images/services/api.svg) no-repeat 0 3px;}
+.i-cms{background: url(../images/services/cms.svg) no-repeat 0 3px;}
+
+
+.i-erp{background: url(../images/services/erp.svg) no-repeat 0 3px;}
+.i-devops{background: url(../images/services/devops.svg) no-repeat 0 3px;}
+.i-aiml{background: url(../images/services/ai-ml.svg) no-repeat 0 3px;}
+.i-bd{background: url(../images/services/bd.svg) no-repeat 0 3px;}
+.i-pos{background: url(../images/services/pos.svg) no-repeat 0 3px;}
+
+.i-am{background: url(../images/services/am.svg) no-repeat 0 3px;}
+.i-seo{background: url(../images/services/seo.svg) no-repeat 0 3px;}
+.i-smm{background: url(../images/services/smm.svg) no-repeat 0 3px;}
+.i-da{background: url(../images/services/da.svg) no-repeat 0 3px;}
+
+.i-ous{background: url(../images/services/ous.svg) no-repeat 0 3px;}
+.i-opm{background: url(../images/services/opm.svg) no-repeat 0 3px;}
+.i-pds{background: url(../images/services/pds.svg) no-repeat 0 3px;}
+
+
+
+@media (max-width:1659px) {
+	
+	
+	
+	
+	
+	
+}
+@media (max-width:1439px) {
+	.mad,.wd{background-size: 45%;}
+	.digitaldesign,.es,.dm,.sm{background-size: 35%;}
+	.contentsection:after{background-size: 55%;}
+	
+}
+@media (max-width:1280px) {
+}
+@media (max-width:991px) {
+.mad,.digitaldesign,.wd,.es,.dm,.sm{background-image: none;}
+	.contentsection:after{display: none;}
+}
+@media (max-width:767px) {
+}

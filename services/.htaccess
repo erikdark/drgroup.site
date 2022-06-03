@@ -1,0 +1,14 @@
+RewriteEngine on
+RewriteCond %{HTTP:HTTPS} !=on [NC]
+RewriteRule ^(.*)$ https://drgroup.site/$1 [R=301,L]
+
+
+<IfModule mod_rewrite.c> 
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/ 
+RewriteRule ^index\.html$ https://%{HTTP_HOST}/ [R=301,L]
+</IfModule>
+
+
+
+RewriteEngine on
+ErrorDocument 404 /404.html

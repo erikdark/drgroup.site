@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+body #Header .navbar{position: absolute;}
+
+.casestudy #Header{height:auto; min-height:100vh; overflow: hidden;}
+.casestudy #Header:before,.casestudy #Header:after,.casestudy #Header span.bannerwave{display:none;}
+.work-page #Header.sonylivebg{background:url(images/sony/sonyliv_bg.png) no-repeat top center; height:900px;}
+.work-page #Header.hondabg{background:url(images/honda/h_bg.png) no-repeat top center; height:900px;}
+.work-page #Header.mauijimbg{background:url(images/mauijim/mj_bg.png) no-repeat top center; height:900px;}
+.portfoliotext{color: #fff;font-size: 20px; letter-spacing: 0.6px; text-align: left; margin-top: 30px;}
+.downloadlinks{text-align:left; margin-top: 50px;}
+.downloadlinks a{display:inline-block; margin-right: 20px;}
+.downloadlinks img{width:100%; max-width:100%;}
+.bannerimg{position: relative;}
+.bannerimg img{position:absolute; top:0; right: 0;}
+.portfoliologo{text-align:left; margin-top:110px;}
+.portfoliologo h3{text-align:left; font-size: 74px; color: #FFFFFF;}
+.portfoliologo h3 span{color:#F4CD34;}
+.appfeaturediv{background:#fff;}
+.appfeatures h3{margin-top:130px;font-size: 54px;color: #000000;letter-spacing: 1px;text-align: center;}
+.appfeatures p{font-size: 24px;color: #7B7B7B;letter-spacing: 1px;text-align: center; margin-top:30px;}
+.appfeatures p.appfeatureimg{margin-top:100px;}
+.featurelist{width:100%;}
+.featurelist ul{margin:150px 0 0; padding:0; list-style:none;}
+.featurelist ul li{text-align:center;}
+.featurelist ul li p{margin-bottom:80px; color: #7B7B7B; letter-spacing: 1px; text-align: center; line-height:26px;}
+.featurelist ul li h5{font-size: 34px; margin-bottom:30px; color: #000000;letter-spacing: 1px;text-align: center;}
+.featurepoint{margin-bottom:150px;}
+.featurepoint h5{margin-bottom:30px; margin-top:60px; font-size: 34px;}
+.featurepoint p{margin-bottom:30px;}
+#techstack{background:url(images/sony/techstack_bg.png) no-repeat top center; padding:100px 0;}
+#techstack2{background:url(images/honda/ts_bg.png) no-repeat top center; padding:100px 0;}
+#techstack3{background:url(images/mauijim/ts_bg.png) no-repeat top center; padding:100px 0;}
+#techstack h2{font-size: 54px; color: #FFFFFF; letter-spacing: 1px; text-align: center;}
+#techstack2 h2{font-size: 54px; color: #FFFFFF; letter-spacing: 1px; text-align: center;}
+#techstack3 h2{font-size: 54px; color: #FFFFFF; letter-spacing: 1px; text-align: center;}
+.techlogodiv{margin-top:100px; margin-bottom:50px;background:url(images/sony/techstack_path.png) no-repeat center 30px;}
+.techlogo{text-align:center; margin-bottom:50px;}
+.techlogo2{text-align:center; margin-top:50px; margin-bottom:50px;}
+
+.martextra{margin-top:100px !important;}
+
+#portfolio #footer{margin-top: 0;}
+
+
+.imageslider{width: 100%; display: block; margin-bottom: 70px; margin-top: 70px;}
+.speed-test-item{width:auto; height:335px; padding: 10px;}
+
+.whitelogo .homemenulogo{display: block;}
+.whitelogo .innermenulogo{display: none;}
+body.sticky-header #Header.whitelogo .navbar.stickymenu{background: rgba(0,0,0,0.7)}
+
+@media (max-width: 1278px) {
+	.downloadlinks a{width:50%; margin-right:0;}
+	.downloadlinks a img{max-width:90%;}
+}
+@media (max-width: 991px) {
+	.portfoliologo{margin-top:230px;}
+	.bannerimg img{position:relative; max-width:60%; margin-top:130px;}
+	.techlogodiv{background:none;}
+	.techlogo img{max-width:225px;}
+	.techlogo2 img{max-width:225px;}
+	.techlogo2{margin-top:10px;}
+}
+@media (max-width: 800px) {
+	.portfoliologo{margin-top:110px;}
+	.featurepoint{margin-bottom:70px;}
+	#techstack{padding: 50px 0;}
+	#techstack2{padding: 50px 0;}
+	#techstack3{padding: 50px 0;}
+	.techlogodiv{margin-top: 60px;}
+}
+@media (max-width: 767px) {
+	.portfoliologo h3{font-size:54px;}
+	.portfoliologo {margin-top: 50px;}
+	.bannerimg img{margin-top:70px;}
+	.appfeatures h3{margin-top:70px;}
+	.featurelist ul li h5{font-size: 24px;}
+	.featurelist ul{margin-top:70px;}
+}
+@media (max-width: 579px) {
+	.bannerimg{display:none;}
+}

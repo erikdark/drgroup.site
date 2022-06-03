@@ -1,0 +1,109 @@
+body{background:#c8e5ff; font-family:'Open Sans', sans-serif; color:#fff;}
+/*.verticaltext{writing-mode: vertical-rl;
+text-orientation: mixed;}*/
+p{color: #fff;}
+section{position:relative; z-index:1; font-family:'Open Sans', sans-serif;}
+section *{font-family:'Open Sans', sans-serif;}
+
+#uiuxdesign h3,.appfeatures h3,#uiuxdesign h3,#developmentprocess h3,#challengesdiv h3,#techstack h3,#client h3,#download h3{font-size: 30px !important; font-weight: 800 !important; color: #fff; position: relative; padding-left:150px; line-height: 160px; display: inline-block;}
+h3 span{position: absolute; top:0; left: 0; background:url(images/certsu/board-blue.png) no-repeat 0 0; width:130px; height: 155px; font-size: 85px; color: #4389c7; text-align: center;}
+
+.work-page #Header span.bannerwave,.work-page #Header:after,.work-page #Header:before{display:none;}
+
+
+.bannerimg img{right:-50px;}
+.work-page #Header.tippingmbg{background:url(images/certsu/banner.png) no-repeat center top; height:983px;}
+
+
+#appfeaturediv{background-image: linear-gradient(to bottom, #6ba9e0 41%, #346c9d); padding-bottom: 250px;}
+#appfeaturediv:before{width: 100%; height:246px; background:url(images/certsu/uidesign_bg.png) no-repeat center top; content: ''; position: absolute; bottom:0; left: 0; z-index: 1;}
+#appfeaturediv:after{width: 100%; height:2000px; background:url(images/certsu/feature_bg.png) no-repeat right bottom; content: ''; position: absolute; bottom:250px; left: 0; z-index: 1;}
+#appfeaturediv .fullwidthdiv{z-index: 3; position: relative}
+
+#appfeaturediv h4{margin-top: 60px; margin-bottom: 30px;}
+#appfeaturediv p{margin-bottom: 50px; padding-right: 30%;}
+.appfeatures h3{text-align: left; margin-top: 0px; color: #fff;}
+.sendrequest{margin-left: -280px; margin-top: -110px;}
+.centerleaf{text-align: center;}
+.centerleaf img{position: absolute; bottom: -73px; left:291px;}
+.certificateimg{margin-left: -130px; margin-bottom: 50px;}
+
+
+.ap-leftimg{position: absolute; top:0; left: 0; width: 180px; height: 604px; background: url(images/certsu/leftleaf.png) no-repeat 0 0; z-index: 2;}
+.ap-rightimg{position: absolute; top:0; right: 0; width: 364px; height: 754px; background: url(images/certsu/rightleaf.png) no-repeat 0 0; z-index: 2;}
+
+
+#uiuxdesign{background-image: linear-gradient(180deg, #619ed4 8%, #3A72A4 66%); padding-bottom:100px;}
+#uiuxdesign h3{text-align: right; padding-right: 20%; margin-bottom: 100px;}
+#uiuxdesign h3 span{background:url(images/certsu/board-white.png) no-repeat 0 0;}
+
+
+#developmentprocess{background: #c8e5ff;}
+#developmentprocess h3{color: #4389c7; margin-top:100px; margin-bottom: 70px;}
+
+.devprorow:before{position: absolute; bottom: 0px; right: 0; width: 225px; height:375px; background:url(images/certsu/right_doc_stethescope.png) no-repeat center top; content: '';}
+.devprorow:after{position: absolute; bottom: 1px; left: 0; width: 226px; height:529px; background:url(images/certsu/doc_stethescope.png) no-repeat center top; content: '';}
+.devproicon{text-align: center; background: url(images/certsu/devprocess_circle.png) no-repeat center center; width: 100%; height: 235px; line-height: 235px; display: block;}
+.devprodiv h5{text-align: center; font-size: 26px; font-weight: bold; color: #626262; margin-bottom: 20px;}
+.devprodiv p{font-size: 18px; font-weight: 500; color: #999999; padding: 0 15%; margin-bottom: 30px;}
+.devprodiv:before{position: absolute; bottom: 1px; left: 0; width: 100%; height:8px; background:#4389c7; content: '';}
+
+
+
+
+
+
+#challengesdiv{background:#3f78aa url(images/certsu/dev_process_bg.png) no-repeat center top; padding-top:375px; padding-bottom: 150px;}
+#challengesdiv h3 span{background:url(images/certsu/board-white.png) no-repeat 0 0;}
+#challengesdiv:before{width: 100%; height:130px; background: #c8e5ff; clip-path: polygon(0 0, 100% 100%, 100% 100%, 0% 100%);  bottom: -1px; left: 0; position: absolute; z-index:1; content: '';}
+.challengelist ul{margin:80px 0 0 0; padding: 0; list-style: none;}
+.challengelist ul li{ padding-left: 70px; padding-bottom: 40px; position: relative;}
+.challengelist ul li:before{position: absolute; top: -5px; left: 0; width:43px; height:43px; background:#4389c7; border: 10px #fff solid; content: ''; border-radius: 50%; z-index: 2;}
+.challengelist ul li:after{position: absolute; top: 0; left: 0; width:43px; height:100%; background:url(images/certsu/dotline.png) repeat-y center top;  content: ''; z-index: 1;}
+.challengelist ul li:last-child:after{display: none;}
+.challengelist ul li h4{font-size:26px; font-weight:bold; color:#fff;}
+.challengelist ul li p{font-size:20px; font-weight:600; color:#bac6d0; padding-right: 80px;}
+.challengephone{margin-top:-410px;}
+
+
+#techstack{background:none; z-index: 2;}
+#techstack h3{color:#4389c7; margin-bottom:70px;}
+
+#download{background-image: linear-gradient(to bottom, #6ba9e0, #3a72a4); margin-top: -400px; padding-top: 560px; padding-bottom: 170px;}
+#download h3{margin-top: 80px; margin-bottom: 50px;}
+#download h3 span{background:url(images/certsu/board-white.png) no-repeat 0 0;}
+#download a{padding-left:50px; color: #fff; font-size: 26px; font-weight: 600; height: 38px; line-height: 38px; display: inline-block;}
+#download a.appstore{background:url(images/certsu/apple.png) no-repeat 0 0; margin-right:30px;}
+#download a.playstore{background:url(images/certsu/playstore.png) no-repeat 0 0;}
+
+
+#download:before{width: 100%; height:860px; background: #c8e5ff; clip-path: polygon(100% 0, 100% 0px, 53% 100%, 0 155px, 0 0);  top:0px; left: 0; position: absolute; z-index:1; content: ''; border-top: 1px #c8e5ff solid;}
+#download:after{width: 100%; height:860px; bottom:133px; left: 0; position: absolute; z-index:1; content: ''; background:url(images/certsu/downloadnow2.png) no-repeat center top; }
+#download .container{z-index: 2; position: relative;}
+
+#client{background:url(images/certsu/clienttestimonial_bg.png) no-repeat center top #4e8bc0;}
+#client h3{margin-top:70px; margin-bottom: 50px;}
+#client h3 span{background:url(images/certsu/board-white.png) no-repeat 0 0;}
+
+.clientimg{margin-top:80px;}
+.clienttext{padding-left:100px; padding-top: 200px; min-height:800px;}
+.clienttext p{font-size: 25px; padding-bottom: 20px; color: #fff;}
+.clienttext h4{font-size: 30px; font-weight: bold;}
+
+.work-page #footer{z-index: 3;}
+/******* Slick Slide Start ******/
+.slick-initialized .slick-slide{padding: 0;}
+.slick-slide.slick-center:before{position: absolute; top:0; left: 0; width: 100%; height: 100%; content: ''; background: url(images/certsu/ui_phone.png) no-repeat 0 0; background-size: auto;}
+/******* Slick Slide end ******/
+@media (max-width:1660px) {
+
+}
+@media (max-width:1440px) {
+
+}
+@media (max-width:1024px) {
+
+}
+@media (max-width:767px) {
+
+}

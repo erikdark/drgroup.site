@@ -1,0 +1,8 @@
+.seotablediv{padding: 0; margin-top: 5rem;}
+.seotablediv table{border:1px #e2e2e2 solid;}
+.seotablediv table th,.seotablediv table td{background: #333; padding:15px 20px; font-weight: bold;}
+.seotablediv table td{background: #999; font-weight: normal}
+.seotablediv table td.subtitle{background:#666; font-weight: bold;}
+.seotablediv table .total td strong{font-weight:bold;}
+
+.seotablediv .btn.btn-outline-secondary{font-size: 14px; padding: 10px 15px;}

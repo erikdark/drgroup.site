@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50.0007883%" x2="99.9987174%" y2="50.0007883%" id="linearGradient-1">
+            <stop stop-color="#E29A64" offset="0%"></stop>
+            <stop stop-color="#E85E8C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50.0007883%" x2="99.9987174%" y2="50.0007883%" id="linearGradient-2">
+            <stop stop-color="#E29A64" offset="0%"></stop>
+            <stop stop-color="#E85E8C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50.0007883%" x2="99.9987174%" y2="50.0007883%" id="linearGradient-3">
+            <stop stop-color="#E29A64" offset="0%"></stop>
+            <stop stop-color="#E85E8C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50.0007883%" x2="99.9987174%" y2="50.0007883%" id="linearGradient-4">
+            <stop stop-color="#E29A64" offset="0%"></stop>
+            <stop stop-color="#E85E8C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-3" transform="translate(10.000000, 9.000000)">
+            <g id="Group-2" transform="translate(0.000000, 28.000000)">
+                <g id="Group" transform="translate(19.500000, 7.000000) scale(-1, 1) rotate(-315.000000) translate(-19.500000, -7.000000) translate(14.000000, 4.000000)">
+                    <line x1="1" y1="3" x2="11" y2="3" id="Path-2" stroke="url(#linearGradient-1)" transform="translate(6.000000, 2.999994) scale(-1, 1) translate(-6.000000, -2.999994) "></line>
+                    <polyline id="Path" stroke="url(#linearGradient-2)" transform="translate(3.000000, 3.000000) scale(-1, 1) rotate(-45.000000) translate(-3.000000, -3.000000) " points="5 1 5 5 1 5"></polyline>
+                </g>
+                <polygon id="Combined-Shape-Copy-4" stroke="url(#linearGradient-3)" stroke-width="1.5" points="12.5573684 5 25.1147367 12.25 25.1147367 26.75 12.5573684 34 1.19904087e-14 26.75 3.77475828e-15 12.25"></polygon>
+                <polygon id="Combined-Shape-Copy-6" stroke="url(#linearGradient-4)" stroke-width="0.800000012" fill="url(#linearGradient-4)" points="25.5573684 12.5 25.5573684 27 13 19.75 13 5.25"></polygon>
+            </g>
+            <g id="Group-2" transform="translate(47.000000, 45.000000) scale(-1, 1) translate(-47.000000, -45.000000) translate(34.000000, 28.000000)">
+                <g id="Group" transform="translate(19.500000, 7.000000) scale(-1, 1) rotate(-315.000000) translate(-19.500000, -7.000000) translate(14.000000, 4.000000)">
+                    <line x1="1" y1="3" x2="11" y2="3" id="Path-2" stroke="url(#linearGradient-1)" transform="translate(6.000000, 2.999994) scale(-1, 1) translate(-6.000000, -2.999994) "></line>
+                    <polyline id="Path" stroke="url(#linearGradient-2)" transform="translate(3.000000, 3.000000) scale(-1, 1) rotate(-45.000000) translate(-3.000000, -3.000000) " points="5 1 5 5 1 5"></polyline>
+                </g>
+                <polygon id="Combined-Shape-Copy-4" stroke="url(#linearGradient-3)" stroke-width="1.5" points="12.5573684 5 25.1147367 12.25 25.1147367 26.75 12.5573684 34 1.19904087e-14 26.75 3.77475828e-15 12.25"></polygon>
+                <polygon id="Combined-Shape-Copy-6" stroke="url(#linearGradient-4)" stroke-width="0.800000012" fill="url(#linearGradient-4)" points="25.5573684 12.5 25.5573684 27 13 19.75 13 5.25"></polygon>
+            </g>
+            <polygon id="Combined-Shape-Copy-5" stroke="url(#linearGradient-3)" stroke-width="1.5" points="30.5573684 0 43.1147367 7.25 43.1147367 21.75 30.5573684 29 18 21.75 18 7.25"></polygon>
+        </g>
+    </g>
+</svg>

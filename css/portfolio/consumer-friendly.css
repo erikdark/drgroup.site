@@ -1,0 +1,263 @@
+body{background:#fff; font-family: 'Open Sans', sans-serif; font-weight:normal;}
+section{position:relative; z-index:1;}
+.work-page #Header{background-image: linear-gradient(to bottom, #2daefa, #bce5fd);}
+.work-page #Header span.bannerwave,.work-page #Header:after,.work-page #Header:before{display:none;}
+h1,h2,h3,h4,h5,h6{font-family: 'Open Sans', sans-serif; color:#2d2d2d; font-weight:600;}
+.header-content{transform:translateY(0%);}
+#footer{z-index:2;}
+
+.header-content{text-align:left;}
+.cfheaderbg{width:100%; display:block; padding-top:120px; padding-bottom:20px; position:relative; overflow:hidden; background:url(images/consumer-friendly/topbanner_bg.png) no-repeat center bottom;}
+.cfheaderbg .container{width:80%; max-width:80%;}
+
+.bannertext{font-size:18px; color:#fff; line-height:30px; font-weight:300;}
+.bannertitle{font-size: 50px;color: #fff; line-height:60px; margin-bottom:25px;}
+.bannertitle span{font-weight:bold;}
+.bannerscreen{text-align:right; padding-bottom:100px;}
+.bannersquare1{position:absolute; left:130px; top:50%; margin-top:-50px; animation-name:shake-slow; animation-duration:25s; animation-timing-function:ease-in-out; animation-iteration-count: infinite;}
+.bannersquare2{position:absolute; left:0%; top:50%; margin-left:170px; margin-top:60px; animation-name:shake-slow; animation-duration:30s; animation-timing-function:ease-in-out; animation-iteration-count: infinite;}
+.bannergraph{position:absolute; left:0%; top:50%; margin-top:170px; animation-name:shake-slow; animation-duration:35s; animation-timing-function:ease-in-out; animation-iteration-count: infinite;}
+
+
+#featuresdiv{background-image: linear-gradient(to bottom, #bce5fd, #ffffff); padding-bottom:110px;}
+.featuresbox{border-radius:10px; box-shadow:0 20px 40px 0 rgba(0, 0, 0, 0.05); background:url(images/consumer-friendly/features_bg.png) no-repeat top left #ffffff; padding:30px 40px 0; margin-top:50px; height:100%; background-size: 100%;}
+.featurimg{text-align:center; margin-bottom:30px; padding:20px 0}
+.featurtitle{text-align:center;color: #757575; font-size: 23px; margin-bottom:20px; min-height:70px;}
+.featurtext{text-align:center; font-size:18px; color:#bfbfbf; line-height:30px;}
+
+#watchvideodiv{margin-top:10px;}
+#watchvideodiv h2{color: #717171; text-align:center; margin-bottom:50px;}
+.videodiv{background:url(images/consumer-friendly/video_bg.png) no-repeat center 0; background-size:100% 102%; width:100%; display:block; padding:0;}
+.videolaptop{margin-top:50px;}
+.videolaptop .videoholder{width:1260px; position:absolute; top:0; left:117px; text-align:center; padding:50px 38px;}
+
+#informationdiv h1{margin-bottom:150px;}
+#informationdiv:before{width:483px; height:491px; background:url(images/consumer-friendly/ai-bg.png) no-repeat 0 0; content:''; top:150px; left:0; position:absolute; z-index:0;}
+#informationdiv:after{width:219px; height:198px; background:url(images/consumer-friendly/ai-bg-setting.png) no-repeat 0 0; content:''; top:70px; right:0; position:absolute; z-index:0;}
+#informationdiv .tab-content{width:100%; display:block; position:relative; z-index:2; padding:0 15px; margin-bottom:180px;}
+.infobtn{text-align:center;}
+.infobtn ul{display:inline-block; text-align:center;border-radius: 7px; margin:0; padding:0; border:2px #9570e9 solid; background:#fff;}
+.infobtn li{display:inline-block; text-align:center; width:240px;}
+.infobtn li a{display:block; padding:20px;border-radius:5px;color: #a3a3a3;}
+.infobtn li a.active{background-image: linear-gradient(252deg, #2daefa, #9570e9); color:#fff;}
+
+#uidesigndiv{background:url(images/consumer-friendly/ui-bg-c.png) no-repeat left bottom; margin-bottom:120px;}
+#uidesigndiv h1{margin-bottom:80px;}
+.uilogo:before{width:78px; height:327px; background:url(images/consumer-friendly/ui_logotext.png) no-repeat 0 0; content:''; top:0px; left:-150px; position:absolute; z-index:0;}
+.uifonts:after{width:78px; height:340px; background:url(images/consumer-friendly/ui_typotext.png) no-repeat 0 0; content:''; top:0px; right:-150px; position:absolute; z-index:0;}
+#uifonts img{z-index:2;}
+
+.uibtmcont{margin-top:150px;}
+.colorui-text:after{width:78px; height:340px; background:url(images/consumer-friendly/ui_colortext.png) no-repeat 0 0; content:''; top:0px; right:-150px; position:absolute; z-index:0;}
+
+#developmentdiv{padding-bottom:30px;}
+#developmentdiv h1{margin-bottom:80px;}
+.ipad{position:absolute; top:0; right:0; width:50%; height:865px;}
+
+.processcont{margin-bottom:55px;}
+.processicon{position:absolute; width:86px; height:59px; display:block;}
+.processtitle{font-size:26px; font-weight:bold; color:#515151; padding-left:115px; margin-bottom:13px;}
+.processtext{font-size:20px; color:#7a7a7a; padding-left:115px; margin-bottom:20px;}
+
+
+#challengesdiv{background-image: linear-gradient(235deg, #63b0f9, #9570e9); padding:75px 0 100px}
+#challengesdiv:after{width:100%; height:233px; background:url(images/consumer-friendly/challenges_bg_wave-bottom.png) no-repeat 0 0; content:''; bottom:0px; right:0px; position:absolute; z-index:2;}
+#challengesdiv:before{width:511px; height:319px; background:url(images/consumer-friendly/challenges_bg_wave-top.png) no-repeat 0 0; content:''; top:0px; right:0px; position:absolute; z-index:2;}
+#challengesdiv span.waveimg{background:url(images/consumer-friendly/challenges_waves.png) no-repeat top left; position:absolute; top:80px; left:0; width:217px; height:115px; z-index:3; opacity:0.5;}
+#challengesdiv span.dotsimg{background:url(images/consumer-friendly/challenges_dot.png) no-repeat top left; position:absolute; top:10px; right:10px; width:180px; height:778px; z-index:3; opacity:0.5;}
+#challengesdiv .container{z-index:4; position:relative;}
+#challengesdiv h1{text-align:center; color:#fff;}
+.leftchallenge{text-align:right; float:left; width:34%; color:#fff; padding-right:140px; position:relative; margin-top:150px;}
+.challengenumg{font-size:50px; font-weight:bold; color: #40a5fe; background:#fff; width:100px; height:100px; border-radius:30px; text-align:center; position:absolute; top:0; right:0; padding-top:14px;}
+.challengetitle{font-size:26px; color:#fff; font-weight:bold; margin-bottom:20px;}
+.challengetext{font-size:20px; color:#fff;}
+
+.rightchallenge{text-align:left; float:right; width:34%; color:#fff; padding-left:140px; position:relative; margin-top:150px;}
+.rightchallenge .challengenumg{right:auto; left:0;}
+
+.challengimgcont{width:40%; position:absolute; top:160px; left:50%; margin-left:-20%; z-index:2;}
+.challengimg{width:100%; float:left; text-align:center;}
+.challengelink{width:100%; float:left; text-align:center; margin-top:50px;}
+.challengelink a{display:inline-block; background:#fff; font-size:24px; color: #40a5fe; font-weight:bold; padding:20px 40px; border-radius:20px;}
+
+#techstackdiv{padding-top:80px; padding-bottom:100px;}
+#techstackdiv h1{margin-bottom:100px;}
+.techbg{width:100%; float:left; background:url(images/consumer-friendly/techstack_bg.png) no-repeat center center; background-size:contain;}
+.techbg .techlogo{width:100%; float:left; text-align:center; padding:30px 0 10px; margin:0;}
+.techbg .techtext{width:100%; float:left; text-align:center; font-size:22px; color:#fff; padding-bottom:40px;}
+
+#testimonialdiv{width:100%; float:left;}
+#testimonialdiv:before{width:366px; height:300px; background:url(images/consumer-friendly/clientspeak_bg.png) no-repeat center center; content:''; top:0px; left:50%; margin-left:-500px; position:absolute; z-index:-1;}
+#testimonialdiv .testibox{width:100%; background:url(images/consumer-friendly/testimonial_bg.png) no-repeat top left; padding-bottom:180px; padding-top:150px; color:#fff;}
+#testimonialdiv h1{color:#fff; margin-top: 60px;}
+
+.clientinfo{text-align:center;}
+.clientimg{width:100%; display:block; padding-bottom:35px;}
+.clientname{width:100%; display:block; padding-bottom:0px;color: #f3f9fc; font-size:30px; font-weight:bold;}
+.clientdec{width:100%; display:block; padding-bottom:40px;color: #f3f9fc; font-size:26px; margin-top: 180px;}
+.clientsay{width:100%; display:block; color:#fff; font-size:21px; line-height:36px;}
+
+
+@keyframes shake-slow {
+2% {transform:translate(4px, 5px) rotate(3.5deg)}
+4% {transform:translate(-4px, 6px) rotate(2.5deg)}
+6% {transform:translate(-7px, 8px) rotate(-2.5deg)}
+8% {transform:translate(-2px, 10px) rotate(-1.5deg)}
+10% {transform:translate(9px, 8px) rotate(.5deg)}
+12% {transform:translate(-5px, 0px) rotate(.5deg)}
+14% {transform:translate(-1px, -3px) rotate(-2.5deg)}
+16% {transform:translate(5px, 5px) rotate(-2.5deg)}
+18% {transform:translate(1px, -3px) rotate(1.5deg)}
+20% {transform:translate(-7px, -4px) rotate(-.5deg)}
+22% {transform:translate(1px, 8px) rotate(-2.5deg)}
+24% {transform:translate(6px, 7px) rotate(.5deg)}
+26% {transform:translate(-1px, 6px) rotate(2.5deg)}
+28% {transform:translate(10px, 1px) rotate(-.5deg)}
+30% {transform:translate(-1px, 6px) rotate(-.5deg)}
+32% {transform:translate(-6px, -6px) rotate(-.5deg)}
+34% {transform:translate(6px, -4px) rotate(-2.5deg)}
+36% {transform:translate(3px, -8px) rotate(-2.5deg)}
+38% {transform:translate(8px, 5px) rotate(3.5deg)}
+40% {transform:translate(-6px, -6px) rotate(1.5deg)}
+42% {transform:translate(2px, -4px) rotate(1.5deg)}
+44% {transform:translate(2px, 5px) rotate(2.5deg)}
+46% {transform:translate(-6px, -6px) rotate(1.5deg)}
+48% {transform:translate(0px, -5px) rotate(-1.5deg)}
+50% {transform:translate(-5px, -3px) rotate(1.5deg)}
+52% {transform:translate(9px, 8px) rotate(1.5deg)}
+54% {transform:translate(-2px, -1px) rotate(-2.5deg)}
+56% {transform:translate(-5px, -1px) rotate(-2.5deg)}
+58% {transform:translate(5px, -4px) rotate(1.5deg)}
+60% {transform:translate(5px, -1px) rotate(3.5deg)}
+62% {transform:translate(-1px, 2px) rotate(-1.5deg)}
+64% {transform:translate(10px, -1px) rotate(2.5deg)}
+66% {transform:translate(-6px, 10px) rotate(-2.5deg)}
+68% {transform:translate(-5px, 4px) rotate(.5deg)}
+70% {transform:translate(8px, 10px) rotate(2.5deg)}
+72% {transform:translate(-2px, 7px) rotate(3.5deg)}
+74% {transform:translate(2px, 0px) rotate(-1.5deg)}
+76% {transform:translate(5px, -5px) rotate(-.5deg)}
+78% {transform:translate(7px, 3px) rotate(2.5deg)}
+80% {transform:translate(3px, 10px) rotate(-.5deg)}
+82% {transform:translate(3px, 7px) rotate(.5deg)}
+84% {transform:translate(-9px, -6px) rotate(1.5deg)}
+86% {transform:translate(-3px, -8px) rotate(-1.5deg)}
+88% {transform:translate(2px, -5px) rotate(3.5deg)}
+90% {transform:translate(6px, -6px) rotate(1.5deg)}
+92% {transform:translate(-7px, 3px) rotate(1.5deg)}
+94% {transform:translate(-8px, -5px) rotate(-1.5deg)}
+96% {transform:translate(6px, -3px) rotate(.5deg)}
+98% {transform:translate(1px, -5px) rotate(-1.5deg)}
+0%, 100% {transform:translate(0, 0) rotate(0)}
+}
+@media (max-width:1660px) {
+.uilogo:before{left:-90px;}
+.uifonts:after,.colorui-text:after{right:-90px;}
+}
+@media (max-width:1440px) {
+	.videolaptop .videoholder{width:928px; left:105px;}
+	.videolaptop .videoholder video{width:856px; height:540px;}
+	
+	.ipad{width:50%; height:auto;}
+
+}
+@media (max-width:1280px) {
+	.uilogo:before{left:-60px;}
+.uifonts:after,.colorui-text:after{right:-60px;}
+}
+@media (max-width:1199px) {
+	/*.challengimgcont{position:relative; width:100%; top:auto; left:auto; margin:40px 0;}*/
+	.challengenumg{width:80px; height:80px; padding-top:4px;}
+
+	.techbg{background-size:contain; margin-top:50px;}
+	#techstackdiv h1{margin-bottom:50px;}
+	#testimonialdiv .testibox{padding-top:120px;}
+	.leftchallenge{padding-right:100px;}
+	.rightchallenge{padding-left:100px;}
+	
+	.videolaptop .videoholder{width:778px; left:85px;}
+	.videolaptop .videoholder video{width:720px; height:440px;}
+}
+@media (max-width:1024px) {
+	.uilogo:before{left:0px; background-position: left bottom; height:250px;}
+	.uifonts:after,.colorui-text:after{right:0px; background-position: left bottom; height:250px;}
+	.uilogo,.uigraph{text-align:right !important;}
+	.uifonts,.colorui-text{ text-align:left !important;}
+	.uilogo img,.uigraph img,.uifonts img,.colorui-text img{max-width:80%;}
+}
+@media (max-width:991px) {
+	h1{font-size:30px;}
+	h2{font-size:24px;}
+	
+	.bannertitle{font-size:30px; line-height:40px;}
+	.bannertext{font-size:16px; line-height:28px;}
+	.bannersquare1,.bannersquare2{/*display:none;*/ width:30%;}
+	.bannersquare1{left:0; margin-top:-80px;}
+	.bannersquare2{margin-left:-30px; top:33%;}
+	.bannergraph{width:50%; left:auto; right:0; margin-top:0;}
+	
+	.featurtitle{font-size:20px;}
+	.featurtext{font-size:16px;}
+	
+	#informationdiv:after,#informationdiv:before{opacity:0.4;}
+	
+	.uilogo img,.uifonts img,.uigraph img,.colorui-text img{width:80%;}
+	.processtitle{font-size:22px;}
+	.processtext{font-size:18px;}
+	
+	#challengesdiv h1{margin-bottom:80px;}
+	.challengimgcont{position:relative; width:100%; top:auto; left:auto; margin:40px 0;}
+	.challengenumg{width:80px; height:80px; padding-top:4px;}
+
+	.techbg{background-size:contain; margin-top:50px;}
+	#techstackdiv h1{margin-bottom:50px;}
+	
+	#testimonialdiv .testibox{padding-top:120px;}
+	#testimonialdiv h1{padding-bottom:20px;}
+	.clientname{font-size:26px; margin-top:15px;}
+	.clientdec{font-size:22px; padding-bottom:30px;}
+	.clientsay{font-size:18px; line-height:30px;}
+	
+	.leftchallenge,.rightchallenge{width:100%;}
+	
+	.videolaptop{text-align:center;}
+	.videolaptop img{width:640px;}
+	.videolaptop .videoholder{width:640px; left:50%; margin-left:-320px; padding-top:30px;}
+	.videolaptop .videoholder video{width:510px; height:310px;}
+	.challengetitle{font-size:23px; font-weight:600;}
+	.challengetext{font-size:18px;}
+	.uifonts:after, .colorui-text:after {height: 190px;}
+	
+}
+@media (max-width:767px) {
+	.featuresbox{height:auto; padding-bottom:30px;}
+	.bannersquare1{top:20%; margin-top:0;}
+	.featuresbox{background-size:100% 100%;}
+	.featurtitle{min-height:30px;}
+	#informationdiv .tab-content{margin-bottom:40px;}
+	.uilogo,.uifonts,.uigraph,.colorui-text{text-align:center !important; margin-bottom:25px;}
+	.uibtmcont{margin-top:40px;}
+	.ipad{width:100%; position:relative; right:-15px;}
+	.leftchallenge{margin-bottom:30px;}
+	#techstackdiv h1{margin-bottom:0;}
+	#testimonialdiv .testibox{padding-bottom:100px;}
+	.leftchallenge,.rightchallenge{margin-top:20px;}
+	
+	.videolaptop{margin-top:20px; margin-bottom:50px;}
+	.videolaptop img{display:none;}
+	.videolaptop .videoholder{position:relative; padding:0; width:100%; left:auto; margin-left:0;}
+	.videolaptop .videoholder video{width:100%; height:auto;}
+	#informationdiv h1{margin-bottom:30px;}
+	.infobtn{margin-bottom:10px;}
+	.infobtn ul{width:100%;}
+	.infobtn li{width:50%; float:left;}
+	#informationdiv:after,#informationdiv:before{z-index:-1;}
+	#uidesigndiv{padding-top:50px; margin-bottom:40px;}
+	#developmentdiv h1{margin-bottom:40px;}
+	.processcont{margin-bottom:20px;}
+	#featuresdiv{margin-bottom:50px;}
+	#challengesdiv span.waveimg,#challengesdiv span.dotsimg{opacity:0.1;}
+	.uilogo:before,.uifonts:after,.colorui-text:after{display:none;}
+	.uilogo{margin-top:20px;}
+	
+}

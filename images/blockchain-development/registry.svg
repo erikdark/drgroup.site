@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="98px" viewBox="0 0 98 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>registry</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50.0007883%" x2="99.9987174%" y2="50.0007883%" id="linearGradient-1">
+            <stop stop-color="#E29A64" offset="0%"></stop>
+            <stop stop-color="#E85E8C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="registry" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="data" transform="translate(20.000000, 21.000000)" stroke="url(#linearGradient-1)" stroke-width="1.64705882">
+            <path d="M0,36.3154485 L18.5832458,36.3154485 L18.5832458,54.8990712 L0,54.8990712 L0,36.3154485 Z M24.4272266,54.8990712 L43.0107237,54.8990712 L43.0107237,36.3154485 L24.4272266,36.3154485 L24.4272266,54.8990712 Z M0.352025845,30.8238704 L18.9352717,30.8238704 L18.9352717,12.2410015 L0.352025845,12.2410015 L0.352025845,30.8238704 Z M40.8907794,10.078216 L34.4076996,0.098245614 L24.4272266,6.58107417 L30.9104321,16.5610446 L40.8907794,10.078216 Z M27.5561359,25.3444788 L36.4817876,33.2170682 L44.3540001,24.2921703 L35.428474,16.4188271 L27.5561359,25.3444788 Z M51.7745592,5.77500785 L41.6399336,12.0134787 L47.8779019,22.147853 L58.0125275,15.910136 L51.7745592,5.77500785 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

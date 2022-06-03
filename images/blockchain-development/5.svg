@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50.0007883%" x2="99.9987174%" y2="50.0007883%" id="linearGradient-1">
+            <stop stop-color="#E29A64" offset="0%"></stop>
+            <stop stop-color="#E85E8C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50.0007883%" x2="99.9987174%" y2="50.0007883%" id="linearGradient-2">
+            <stop stop-color="#E29A64" offset="0%"></stop>
+            <stop stop-color="#E85E8C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50.0007883%" x2="99.9987174%" y2="50.0007883%" id="linearGradient-3">
+            <stop stop-color="#E29A64" offset="0%"></stop>
+            <stop stop-color="#E85E8C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50.0007883%" x2="99.9987174%" y2="50.0007883%" id="linearGradient-4">
+            <stop stop-color="#E29A64" offset="0%"></stop>
+            <stop stop-color="#E85E8C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-5" transform="translate(3.000000, 12.000000)">
+            <path d="M24.8000004,16.8000003 C24.8000004,11.9398944 20.8601061,8.00000012 16.0000002,8.00000012 C11.1398944,8.00000012 7.20000011,11.9398944 7.20000011,16.8000003" id="Path" stroke="url(#linearGradient-1)" stroke-width="0.800000012"></path>
+            <g id="Group-4" transform="translate(10.400000, 0.000000)" stroke-width="0.800000012">
+                <path d="M3.20000005,4.80000007 L3.20000005,2.29565221 C3.20000005,1.0277985 4.27451666,0 5.60000008,0 C6.9254835,0 8.00000012,1.0277985 8.00000012,2.29565221 L8.00000012,4.80000007" id="Path" stroke="url(#linearGradient-2)"></path>
+                <path d="M8.80000013,4.00000006 C10.1254836,4.00000006 11.2000002,5.07451668 11.2000002,6.4000001 L11.2000002,12.0000002 C11.2000002,13.3254836 10.1254836,14.4000002 8.80000013,14.4000002 L2.40000004,14.4000002 C1.07451662,14.4000002 6.06414113e-16,13.3254836 0,12.0000002 L0,6.4000001 C2.81764307e-16,5.07451668 1.07451662,4.00000006 2.40000004,4.00000006 L8.80000013,4.00000006 Z M5.60000008,8.00000012 C4.71634447,8.00000012 4.00000006,8.71634453 4.00000006,9.60000014 C4.00000006,10.4836558 4.71634447,11.2000002 5.60000008,11.2000002 C6.4836557,11.2000002 7.20000011,10.4836558 7.20000011,9.60000014 C7.20000011,8.71634453 6.4836557,8.00000012 5.60000008,8.00000012 Z" id="Combined-Shape" stroke="url(#linearGradient-3)" fill="url(#linearGradient-3)"></path>
+            </g>
+            <path d="M58.4000009,16.8000003 C58.4000009,11.9398944 54.4601066,8.00000012 49.6000007,8.00000012 C44.7398949,8.00000012 40.8000006,11.9398944 40.8000006,16.8000003" id="Path-Copy-2" stroke="url(#linearGradient-1)" stroke-width="0.800000012"></path>
+            <path d="M41.6000006,16.8000003 C41.6000006,11.9398944 37.6601064,8.00000012 32.8000005,8.00000012 C27.9398946,8.00000012 24.0000004,11.9398944 24.0000004,16.8000003" id="Path-Copy" stroke="url(#linearGradient-1)" stroke-width="0.800000012"></path>
+            <polygon id="Combined-Shape" stroke="url(#linearGradient-4)" stroke-width="1.5" points="15.2746136 32.0000005 22.5492271 36.2000005 22.5492271 44.6000007 15.2746136 48.8000007 8.00000012 44.6000007 8.00000012 36.2000005"></polygon>
+            <polygon id="Combined-Shape-Copy" stroke="url(#linearGradient-4)" stroke-width="1.5" points="32.8746139 32.0000005 40.1492274 36.2000005 40.1492274 44.6000007 32.8746139 48.8000007 25.6000004 44.6000007 25.6000004 36.2000005"></polygon>
+            <polygon id="Combined-Shape-Copy-4" stroke="url(#linearGradient-4)" stroke-width="1.5" points="24.0746138 16.8000003 31.3492273 21.0000003 31.3492273 29.4000004 24.0746138 33.6000005 16.8000003 29.4000004 16.8000003 21.0000003"></polygon>
+            <polygon id="Combined-Shape-Copy-7" stroke="url(#linearGradient-4)" stroke-width="0.800000012" fill="url(#linearGradient-4)" points="7.2746135 16.8000003 14.549227 21.0000003 14.549227 29.4000004 7.2746135 33.6000005 -2.22044605e-15 29.4000004 -6.88338275e-15 21.0000003"></polygon>
+            <polygon id="Combined-Shape-Copy-5" stroke="url(#linearGradient-4)" stroke-width="1.5" points="40.874614 16.8000003 48.1492275 21.0000003 48.1492275 29.4000004 40.874614 33.6000005 33.6000005 29.4000004 33.6000005 21.0000003"></polygon>
+            <polygon id="Combined-Shape-Copy-6" stroke="url(#linearGradient-4)" stroke-width="1.5" points="57.6746143 16.8000003 64.9492278 21.0000003 64.9492278 29.4000004 57.6746143 33.6000005 50.4000008 29.4000004 50.4000008 21.0000003"></polygon>
+            <polygon id="Combined-Shape-Copy-2" stroke="url(#linearGradient-4)" stroke-width="1.5" points="49.6746141 32.0000005 56.9492276 36.2000005 56.9492276 44.6000007 49.6746141 48.8000007 42.4000006 44.6000007 42.4000006 36.2000005"></polygon>
+            <polygon id="Combined-Shape-Copy-3" stroke="url(#linearGradient-4)" stroke-width="1.5" points="66.4746144 32.0000005 73.7492279 36.2000005 73.7492279 44.6000007 66.4746144 48.8000007 59.2000009 44.6000007 59.2000009 36.2000005"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,293 @@
+body{background:#F6FEFF;}
+.casestudy #Header{height:100vh; border-bottom:none;}
+.work-page #Header span.bannerwave,.work-page #Header:after,.work-page #Header:before{display:none;}
+
+.parqbanner{height:100vh; width:100%; display:inline-block;}
+.parqbanner .roadbg{height:235px; width:100%; background:#407AFF; position:absolute; bottom:8px; left:0;}
+.parqbanner .roadsidebg{height:50px; width:100%; background:#3e76f5; position:absolute; bottom:235px; left:0;}
+
+.bannermask{width:100%; height:1300px; position:absolute; bottom:-1px; left:0; background:url(images/parq/mask.png) no-repeat 100% 100%; background-size:100%; z-index:15; pointer-events:none;}
+.work-page #Header.parqbg{background:#407aff url(images/parq/sky.png) 0 0 repeat-x; width:100%;
+background-size:1920px !important;animation: rotate 250s linear infinite;-webkit-animation: rotate 250s linear infinite;-moz-animation: rotate 250s linear infinite;-ms-animation: rotate 250s linear infinite;-o-animation: rotate 250s linear infinite;-webkit-transition: -webkit-transform 250000ms linear; -moz-transition: -moz-transform 250000ms linear;transition: transform 250000ms linear; /*-moz-transform-style: preserve-3d; transform-style: preserve-3d; -webkit-transform-style: preserve-3d;*/}
+
+.parqbanner .city{height:314px; width:100%; position:absolute; bottom:260px; left:0; z-index:1;
+background: url(images/parq/citybg.png) 0 0 repeat; background-size:1920px;
+animation: rotate 180s linear infinite;-webkit-animation: rotate 180s linear infinite;-moz-animation: rotate 180s linear infinite;-ms-animation: rotate 180s linear infinite;-o-animation: rotate 180s linear infinite;-webkit-transition: -webkit-transform 18000ms linear;-webkit-transform-style: preserve-3d;-moz-transition: -moz-transform 18000ms linear;-moz-transform-style: preserve-3d;transition: transform 18000ms linear;transform-style: preserve-3d;
+}
+.parqbanner .street{height:102px; width:100%; position:absolute; bottom:240px; left:0; z-index:2;
+background: url(images/parq/street.png) 0 0 repeat; background-size:1920px;
+animation: rotate 50s linear infinite;-webkit-animation: rotate 50s linear infinite;-moz-animation: rotate 50s linear infinite;-ms-animation: rotate 50s linear infinite;-o-animation: rotate 50s linear infinite;-webkit-transition: -webkit-transform 9000ms linear;-webkit-transform-style: preserve-3d;-moz-transition: -moz-transform 5000ms linear;-moz-transform-style: preserve-3d;transition: transform 5000ms linear;transform-style: preserve-3d;
+}
+.parqbanner .streetline1{height:5px; width:100%; position:absolute; bottom:229px; left:0; z-index:3; background:url(images/parq/roadstrip.png) 0 0 repeat; background-size:120px;
+animation: rotate 20s linear infinite;-webkit-animation: rotate 20s linear infinite;-moz-animation: rotate 20s linear infinite;-ms-animation: rotate 20s linear infinite;-o-animation: rotate 20s linear infinite;-webkit-transition: -webkit-transform 2000ms linear;-webkit-transform-style: preserve-3d;-moz-transition: -moz-transform 2000ms linear;-moz-transform-style: preserve-3d;transition: transform 2000ms linear;transform-style: preserve-3d;
+}
+.parqbanner .streetline2{height:5px; width:100%; position:absolute; bottom:100px; left:0; z-index:5; background:url(images/parq/roadstrip.png) 0 0 repeat; background-size:120px;
+animation: rotate 15s linear infinite;-webkit-animation: rotate 15s linear infinite;-moz-animation: rotate 15s linear infinite;-ms-animation: rotate 15s linear infinite;-o-animation: rotate 15s linear infinite;-webkit-transition: -webkit-transform 1500ms linear;-webkit-transform-style: preserve-3d;-moz-transition: -moz-transform 1500ms linear;-moz-transform-style: preserve-3d;transition: transform 1500ms linear;transform-style: preserve-3d;
+}
+.parqlogo{width:387px; height:142px; position:absolute; top:160px; left:50%; margin-left:-194px; z-index:9;}
+
+.parqbanner .car1{background:url(images/parq/car1.png) 0 0 no-repeat; background-size:100%; width:279px; height:111px; display:block; position:absolute; bottom:0; margin-bottom:150px; left:50%; margin-left:-200px; z-index:4; animation: carmove1 10s linear infinite; z-index:9}
+/*.parqbanner .car1:before{background:url(images/parq/light.png) no-repeat 0 0; opacity:1; width:147px; height:69px; left:-133px; top:24px; content:''; position:absolute; animation: light 3s infinite;}*/
+.parqbanner .car2{background:url(images/parq/car2.png) 0 0 no-repeat; background-size:100%; width:258px; height:119px; display:block; position:absolute; bottom:0; margin-bottom:150px; left:50%; margin-left:129px; z-index:4; animation: carmove2 10s linear infinite;}
+/*.parqbanner .car2:before{background:url(images/parq/light-2.png) no-repeat 0 0; opacity:1; width:147px; height:69px; left:-131px; top:24px; content:''; position:absolute; animation: light 3s infinite;}*/
+
+.apptitles{font-size: 24px; color: #343643; letter-spacing: 1px; text-align: center; margin-top:80px; padding-bottom:50px;}
+.apptitles h2{font-size: 54px; color: #424242;letter-spacing: 1px; margin-bottom:10px;}
+.apptitles p{opacity: 0.5;}
+
+#appfeatures{background:url(images/parq/appfeature_bg.png) no-repeat top 220px center; background-size:100% 81%;}
+.appfeature{margin-top:70px;}
+.appfeatureicon{width:100%; display:block; margin-bottom:35px;}
+.appfeaturetext{width:100%; display:block; margin-bottom:20px;}
+.appfeaturetext h2{font-size: 34px; color: #343643; letter-spacing: 1px; margin-bottom:30px;}
+.appfeaturetext p{opacity: 0.5; font-size: 24px; color: #343643; letter-spacing: 1px; line-height: 36px;}
+
+.designapptitle.apptitles{margin-top:130px;}
+
+#logocreation{background:#fff; padding-top:50px;}
+#logocreation .row{margin-bottom:80px;}
+#logocreation h2{margin-top:50px; margin-bottom:30px; font-size: 34px; color: #343643; letter-spacing: 1px;}
+#logocreation p{opacity: 0.5; font-size: 24px; color: #343643; letter-spacing: 1px; line-height: 36px;}
+
+#uiuxdesign{position:relative; background:#fff;}
+/*#uiuxdesign:before{width:100%; height:100%; position:absolute; top:0; left:0; background:red; content:'';}*/
+.designphone{width:100%; display:block; position:relative; border-top-right-radius:25%; background:url(images/parq/design_bg.png) no-repeat top left #fff; }
+.designphone .apptitles{width:100%; display:block; text-align:center; position:absolute; top:0; left:0;}
+.designphone .apptitles h2{font-size: 54px; color: #FFFFFF; letter-spacing: 1px; margin-top:50px;margin-bottom:10px;}
+.designphone .apptitles p{opacity: 0.5; font-size: 24px; color: #FFFFFF; letter-spacing: 1px; text-align: center;}
+.designphone img{border-top-right-radius:25%;}
+#development{background:#fff;}
+#development{padding-top:100px; padding-bottom:100px;}
+#development h2{font-size: 54px; color: #424242; letter-spacing: 1px;text-align: center; margin-bottom:10px;}
+#development p{opacity: 0.5; font-size: 24px; color: #343643; letter-spacing: 1px;text-align: center;}
+
+.developmentcont{margin-top:100px;}
+#development .developmenttext{text-align:left; padding-left:100px; position:relative; margin-top:80px; float:left;}
+#development .developmenttext.margintop{margin-top:80px;}
+#development .developmenttext h2{font-size:30px; color:#343643; text-align:left; margin-bottom:20px; margin-top:10px;}
+#development .developmenttext p{font-size:20px; color:#343643; text-align:left;}
+#development .developmenticon{display:inline-block; width:90px; height:90px; position:absolute; top:0; left:0;}
+.developmentimg{text-align:center; position:relative; margin-top:60px;}
+.developmentscreens{position:absolute; top:0; left:0; text-align:center;}
+.developmentbg{background:url(images/parq/d_road.png) no-repeat 0 370px;}
+
+
+#techstack{background:url(images/parq/ts_bg.png) no-repeat top left; border-top-left-radius:25%; padding:80px 0;}
+.techstackcont .apptitles{width:100%; display:block; text-align:center; margin-top:0;}
+.techstackcont .apptitles h2{font-size: 54px; color: #FFFFFF; letter-spacing: 1px; margin-top:0px;margin-bottom:10px;}
+.techstackcont .apptitles p{opacity: 0.5; font-size: 24px; color: #FFFFFF; letter-spacing: 1px; text-align: center;}
+
+.techlogobox{width:100%; text-align:center; display:block; margin-top:80px;}
+.techlogo{padding:150px; border-radius:50%; border:2px #fff dashed; display:inline-block; position:relative;}
+.techlogodiv{position:absolute; width:166px; height:166px; text-align:center; padding-top:25px; margin-top:-83px; background:#fff; display:block; border-radius:50%;}
+.techlogodiv span{display:block; width:100%; text-align:center; color:#407aff; font-size:22px; padding-top:5px;}
+.swiftlogo{top:0; left:50%; margin-left:170px; margin-left:-83px;}
+.sketchlogo{top:50%; margin-top:-160px; right:0; margin-right:-73px;}
+.phplogo{top:50%; margin-top:-160px; left:0; margin-left:-73px;}
+.laravellogo{bottom:50%; margin-bottom:-270px; right:0; margin-right:0;}
+.javalogo,.awslogo{bottom:50%; margin-bottom:-270px; left:0; margin-left:0;}
+
+
+
+#download{background:url(images/parq/download_bg.png) no-repeat bottom right #407aff; padding:200px 0; position:relative;}
+#download:before{position:absolute; bottom:-12px; left:0; width:100%; height:125px; content:''; background:url(images/parq/download_car.png) repeat-x 0 0; background-size:1920px;
+animation: downloadBackground 40s linear infinite;
+-moz-animation: downloadBackground 40s linear infinite;
+-webkit-animation: downloadBackground 40s linear infinite;
+-ms-animation: downloadBackground 40s linear infinite;
+-o-animation: downloaddBackground 40s linear infinite;
+}
+#download h2{font-size:54px; font-weight:600; color:#fff;}
+#download p{font-size:24px; color:#fff;}
+.downloadbtn{margin-top:20px; text-align:right;}
+.downloadbtn a{background:url(images/parq/apple.png) no-repeat 20px 18px #fff; padding:15px 40px 15px 60px; border-radius:12px; font-size:24px; color: #407aff; display:inline-block; cursor:pointer;} 
+@keyframes downloadBackground {
+	0% { background-position:0 0;}
+	100% { background-position:-1920px 0;}
+}
+@-moz-keyframes downloadBackground {
+	0% { background-position: 0 0;}
+	100% { background-position:-1920px 0;}
+}
+@-webkit-keyframes downloadBackground {
+	0% { background-position: 0 0;}
+	100% { background-position:-1920px 0;}
+}
+@-ms-keyframes downloadBackground {
+	0% { background-position: 0 0;}
+	100% { background-position:-1920px 0;}
+}
+@-o-keyframes downloadBackground {
+	0% { background-position: 0 0;}
+	100% { background-position:-1920px 0;}
+}
+
+
+
+#client{padding-bottom:250px; background:url(images/parq/testimonials_bg.png) no-repeat bottom left;}
+.testimoni p{font-size:24px; color: #343643; letter-spacing: 1.25px; text-align: center;}
+.testimonitext{position:relative; background:#fff; padding:80px 100px 50px; text-align:center; border-radius:20px;
+-webkit-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.15); -moz-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.15); box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.15);}
+.testimonitext:before{background:url(images/parq/testimonials_left.png) no-repeat 0 0; width:276px; height:110px; display:block; top:0; left:0; position:absolute; content:'';}
+.testimonitext:after{background:url(images/parq/testimonials_right.png) no-repeat 0 0; width:276px; height:110px; display:block; bottom:0; right:0; position:absolute; content:'';}
+.testiimg{text-align:center; margin-bottom:30px;}
+.testimoni{padding-left:120px; padding-right: 120px; }
+.testimoni:after{background:url(images/parq/comma_right.png) no-repeat 0 0; width:84px; height:69px; display:block; top:0px; right:0px; position:absolute; content:'';}
+.testimoni:before{background:url(images/parq/comma_left.png) no-repeat 0 0; width:84px; height:69px; display:block; top:0px; left:0px; position:absolute; content:'';}
+.testiimg span,.testimoni{position:relative; display:inline-block;}
+.testiimg span:before{background:url(images/parq/comma_left.png) no-repeat 0 0; width:84px; height:69px; display:block; top:15px; right:150px; position:absolute; content:'';}
+.testiimg span:after{background:url(images/parq/comma_right.png) no-repeat 0 0; width:84px; height:69px; display:block; top:15px; left:150px; position:absolute; content:'';}
+
+.testiinfo{text-align:center; margin-top:20px;}
+.testiinfo h3{font-size: 34px; color: #407AFF; letter-spacing: 1.42px;}
+.testiinfo p{opacity: 0.5; font-size: 20px; color: #343643; letter-spacing: 0.83px;}
+
+
+
+/******** Challenges *************/
+#challenges{background:#fff; padding-top:15px; padding-bottom:30px;}
+.tab-items-list{margin-top:70px;}
+.responsive-tab-wrapper {margin-bottom:20px;}
+.resp-tabs-container {padding:0 30px;}
+.resp-tabs-list {padding: 0;}
+.resp-tabs-list i {margin-right: 15px;font-size: 24px;}
+.resp-tabs-list li {cursor: pointer;border-bottom: solid 1px #d8d8d8; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -o-transition: all 0.5s ease; list-style: none;}
+.resp-tabs-list li span{line-height: 55px; font-weight:600; font-size:20px; color:#343643; padding-left:50px; background:url(images/parq/dot-dc.png) no-repeat left center; background-size:28px; min-height:45px; display:block;}
+.resp-tabs-list li p{font-size:18px; line-height:24px; color: #343643; opacity:0.5; display:block; font-weight:normal; line-height:26px; padding-bottom:10px; padding-left:50px; display:none;}
+.resp-tabs-list li:hover, .resp-tabs-list li.resp-tab-active,  h3.resp-accordion:hover {background-color: #ffffff;}
+.resp-tabs-list li:hover span, .resp-tabs-list li.resp-tab-active span{background:url(images/parq/dot-ac.png) no-repeat left center; background-size:28px;}
+.resp-tabs-list li.resp-tab-active p{display:block;}
+h3.resp-tab-active,  h3.resp-tab-active:hover {border-bottom: 1px solid #e7edee;}
+h3.resp-accordion {cursor: pointer;	font-size: 18px;display: none;	font-weight: 300; border-bottom: 1px solid #e7edee;	margin: 0;	line-height: 66px;	transition: all 0.7s ease;	-webkit-transition: all 0.7s ease;	-moz-transition: all 0.7s ease;	-o-transition: all 0.7s ease;}
+h3.resp-accordion:hover {}
+.resp-tab-content {display: none;}
+.resp-content-active,  .resp-accordion-active {display: block;}
+.resp-arrow {width: 0;height: 0;float: right;margin-top: 27px;	margin-right: 15px;	border-left: 5px solid transparent;	border-right: 5px solid transparent;border-top: 7px solid;}
+h3.resp-tab-active span.resp-arrow {border: none;	border-left: 5px solid transparent;	border-right: 5px solid transparent;border-bottom: 7px solid;}
+/*-----------Accordion styles-----------*/
+h3.resp-tab-active {background: #ccddff; border-color: #759ff9;}
+.resp-easy-accordion h3.resp-accordion {display: block;}
+.resp-jfit {width: 100%;margin: 0px;}
+.resp-tab-content-active {display: block;background: #e7edee;padding: 0 25px 25px;}
+.prod-tab-content img {/*width: 300px;*/float: right;}
+@media only screen and (max-width:1659px) {
+.bannermask{background-size:106%}
+}
+@media only screen and (max-width:1440px) {
+.bannermask{background-size:110%}
+}
+@media only screen and (max-width:1279px) {
+.designphone .apptitles{margin-top:10px;}
+}
+@media only screen and (max-width: 980px) {
+ul.resp-tabs-list {display: none;}
+h3.resp-accordion {display: block;	padding-left: 25px;}
+h3.resp-accordion p{line-height:24px;}
+.resp-accordion-closed {display: none !important;}
+.prod-tab-content {padding: 10px;}
+}
+/******************/
+
+@keyframes carmove1 {
+  0%, 100% {
+    /*bottom: 0;*/
+	margin-left:-220px;
+  }
+  50% {
+   /* bottom: 1px;*/
+   margin-left:-210px;
+  }
+}
+@keyframes carmove2 {
+  0%, 100% {
+    /*bottom: 1px;*/
+	margin-left:129px;
+  }
+  50% {
+    /*bottom: 0;*/
+	margin-left:80px;
+  }
+}
+@keyframes light {
+  0%,100% {
+    opacity:1;
+  }
+  50% {
+    opacity:0.4;
+  }
+}
+@media (max-width:1660px) {
+.parqbanner .roadbg{height:195px;}
+.parqbanner .roadsidebg{bottom:195px;}
+.parqbanner .city{height:271px; bottom:240px; background-size:1660px;}
+.parqbanner .street{height:80px;  bottom:215px; background-size:1920px 80px;}
+.parqbanner .streetline1{bottom:190px;}
+.parqbanner .streetline2{bottom:60px;}
+.parqlogo{width:293px; height:102px; top:80px; left:50%; margin-left:-96px;}
+.parqbanner .car1{width:242px; height:97px; bottom:0; margin-bottom:130px; margin-left:-200px;}
+.parqbanner .car2{width:223px; height:103px; bottom:0; margin-bottom:130px; margin-left:129px;}
+}
+@media (max-width:1440px) {
+.parqbanner .roadbg{height:165px;}
+.parqbanner .roadsidebg{bottom:165px;}
+.parqbanner .city{height:236px; bottom:210px; background-size:1660px;}
+.parqbanner .street{height:80px;  bottom:175px; background-size:1920px 80px;}
+.parqbanner .streetline1{bottom:160px;}
+.parqbanner .streetline2{bottom:40px;}
+.parqlogo{width:290px; height:102px; top:80px; left:50%; margin-left:-145px;}
+.parqbanner .car1{width:242px; height:97px; bottom:0; margin-bottom:120px; margin-left:-200px;}
+.parqbanner .car2{width:223px; height:103px; bottom:0; margin-bottom:120px; margin-left:129px;}
+}
+@media (max-width:1279px) {
+	.bannermask{display:none;}
+	.developmentbg{background:none;}
+}
+@media (max-width:991px) {
+#development .developmenttext{padding-left:0; margin-top:0;}
+#development .developmenticon{position:relative; width:100%;}
+.developmentimg{display:none;}
+}
+@media (max-width:767px) {
+	#Header{overflow:hidden;}
+	.appfeature{margin-top:10px;}
+	.developmentbg{background:none;}
+	.developmentcont{margin-top:0;}
+	.appfeaturetext h2{font-size:22px;}
+	.appfeaturetext p,#logocreation p,#development p,#development .developmenttext p{font-size:16px; line-height:24px;}
+	#development{padding-top:45px; padding-bottom:25px;}
+	#development .developmenttext{margin-top:20px;}
+	#development .developmenttext.margintop{margin-top:15px;}
+	.developmentimg{margin-top:30px; margin-bottom:30px;}
+	.apptitles{margin-top:40px; padding-bottom: 0;}
+	.testimonitext{padding:15px; margin-top: 15px;}
+	.testimoni p,#development .developmenttext h2,.techstackcont .apptitles p{font-size:20px;}
+	.testiinfo h3{font-size:26px;}
+	#client{padding-bottom:170px;}
+	.testimoni{padding-left:15px; padding-right: 15px;}
+	.testimoni:before,.testimoni:after{display: none;}
+	.apptitles h2,#development h2,#techstack h2{font-size:34px;}
+	.downloadbtn{text-align:left;}
+	#download{padding-top:30px; padding-bottom:30px;}
+	#download:before{display:none;}
+	.designphone .apptitles h2{}
+	.designphone .apptitles p{opacity:1; color:#FFF; text-shadow: -2px -2px 2px #092233;}
+	.designphone img{opacity:0.2;}
+	#techstack{background:#407aff; border-radius:0; padding-bottom:30px;}
+	.techlogobox{margin-top:0;}
+	.techlogo{border-radius:0; border:none; padding:5px 0 0 0;}
+	.parktechlogo{display:none;}
+	.techlogodiv{position:relative; top:auto; right:auto; left:auto;}
+	.swiftlogo,.sketchlogo,.laravellogo,.awslogo,.phplogo{margin:20px 0 0; padding:20px 0;}
+	#logocreation{padding-top:0;}
+	#logocreation .row{margin-bottom:0;}
+	#download h2{font-size:30px;}
+	#download p{font-size:20px;}
+	
+	#logocreation h2{font-size:20px;}
+	
+	.designphone{border-top-right-radius:25px;}
+	.designphone .apptitles{position: relative; padding:40px 20px;}
+	.designphone img{display: none;}
+	
+	
+}

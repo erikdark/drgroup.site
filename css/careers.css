@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+.preksicon{float: left; width: 100px;}
+.prekstext{text-align: left; float: left; width: calc(100% - 100px);}
+.prekstext h5{font-size: 22px; font-weight: 600;}
+.prekstext p{}
+
+
+.openingbox .opening{margin-top:80px;}
+.openingbox .opening:nth-child(3n+1){text-align:right ;}
+.openingbox .opening:nth-child(3n+2){text-align: center;}
+.openingbox .opening:nth-child(3n+3){text-align: left;}
+
+.currentopenings{display: inline-block; width: 85%; background:#f7f7f7; text-align: left; padding: 30px; position: relative;}
+.currentopenings h5{font-size: 24px; color: #1f1f20;}
+.currentopenings p{font-size: 17px; color: #1f1f20;}
+.row.centerheight .currentopenings .hcsbtn{width: 100%; margin-bottom: 0;}
+.popupbtn{position: absolute; bottom: 0; right: 0; width: 50px; height: 50px;}
+.popupbtn a{display: block;}
+
+.hcsbtn .btn{padding:12px 30px}
+
+
+.close{color: #fff; text-shadow: 0 1px 0 #c2c2c2;}
+.modal-title{color:#fff;}
+.modal-body p{font-size: 15px; margin-bottom: 0; color: #ffff;}
+.openinginfo {padding: 0; overflow: hidden; margin: 0; list-style: none}
+.openinginfo li {padding: 25px 0 0;	font-size: 16px; color: #c2c2c2;}
+.openinginfo li span {color: #fff;}
+.modal-content{background-color: #1f1f20;}
+
+/********** Carousel Start***************/
+.halfheight.ticker{padding-bottom: 0;}
+.imageslider{width: 100%; display: block; margin-bottom: 70px; margin-top: 70px;}
+.speed-test-item{width:auto; height:335px; padding: 10px;}
+.news-item{padding:20px;background:#089031;max-width:25%;color:#fff;text-decoration:none;border-right:1px #ddd solid}
+
+/********** Carousel End***************/

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>58C76D03-7C2A-43FD-A3F3-2D35CB63B13B</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50.0007883%" x2="99.9987174%" y2="50.0007883%" id="linearGradient-1">
+            <stop stop-color="#E29A64" offset="0%"></stop>
+            <stop stop-color="#E85E8C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="About" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-938.000000, -7902.000000)" fill="url(#linearGradient-1)" id="Group-22" stroke="#FFFFFF" stroke-width="9">
+            <g transform="translate(0.000000, 7070.000000)">
+                <g id="Group-10" transform="translate(947.000000, 740.000000)">
+                    <g id="Group-9" transform="translate(0.000000, 101.000000)">
+                        <circle id="circle" cx="13" cy="13" r="17.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

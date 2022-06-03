@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+.listicon li.uiux{background-image:url(../images/ios-dev/uiux.svg);}
+.listicon li.uxub{background-image:url(../images/ios-dev/uxub.svg);}
+.listicon li.custom{background-image:url(../images/ios-dev/custom.svg);}
+.listicon li.information{background-image:url(../images/ios-dev/ia.svg);}
+.listicon li.ocd{background-image:url(../images/ios-dev/ocd.svg);}
+.listicon li.prototyping{background-image:url(../images/ios-dev/prot.svg);}
+
+.co{background-image:url(../images/ios-dev/co.svg);}
+.pk{background-image:url(../images/ios-dev/pk.svg);}
+.uud{background-image:url(../images/ios-dev/uud.svg);}
+.dev{background-image:url(../images/ios-dev/dev.svg);}
+.abt{background-image:url(../images/ios-dev/abt.svg);}
+.ls{background-image:url(../images/ios-dev/ls.svg);}
+
+.bestview{background-image:url(../images/ios-dev/best-view.svg);}
+.latesttech{background-image:url(../images/ios-dev/latest-tech.svg);}
+.ourteam{background-image:url(../images/ios-dev/our-team.svg);}
+
+.proswitch{background-image: linear-gradient(73deg, #9654c6 0%, #8460c5 100%);}
+.proswitch:after{background-image: url(../images/pro-slider/switch.png)}
+.propark{background-image: linear-gradient(253deg, #407aff, #48c2ff);}
+.propark:after{background-image: url(../images/pro-slider/parkplace.png)}
+.prohonda{ background-image: linear-gradient(74deg, #b61421 13%, #ec1f30 85%);}
+.prohonda:after{background-image: url(../images/pro-slider/honda.png)}
+
+
+.equippedlatesttech{background-image:url(../images/ios-dev/equippedlatesttech.svg);}
+.ourteamathelm{background-image:url(../images/ios-dev/ourteamathelm.svg);}
+.yougetthebestview{background-image:url(../images/ios-dev/yougetthebestview.svg);}
+
+
+.tltt{background-image:url(../images/ios-development/ipad-apps/tltt.svg);}
+.gc{background-image:url(../images/ios-development/ipad-apps/gc.svg);}
+.ddr{background-image:url(../images/ios-development/ipad-apps/ddr.svg);}

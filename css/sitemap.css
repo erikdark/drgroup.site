@@ -1,0 +1,30 @@
+#sitemap ul {
+    	margin: 0px;
+
+    	padding: 0px;
+    	list-style: none;
+	}
+	#sitemap li {
+		margin: 0px;
+	}
+	#sitemap li ul {
+		margin-left: 20px;
+	}
+
+	#sitemap .lhead {
+		background: #000;
+		padding: 10px;
+    	margin: 10px 0px;
+	}
+
+	#sitemap .lcount {
+		padding: 0px 10px;
+	}
+
+	#sitemap .lpage {
+		border-bottom: #ddd 1px solid;
+		padding: 10px 5px; font-size:16px;
+	}
+	#sitemap .last-page {
+		border: none;
+	}
